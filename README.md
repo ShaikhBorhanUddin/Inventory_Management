@@ -60,7 +60,8 @@ The Inventory Management System will incorporate features such as product catego
 
 - **Scalability Ready**  
   The database schema is designed to be scalable for future enhancements and reporting.
-
+## ER Diagram
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/ER_Diagram.png?raw=true)
 ## 🛠️ Technologies Used
 
 - **SQL**
