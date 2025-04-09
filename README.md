@@ -11,7 +11,14 @@
 ![GitHub](https://img.shields.io/badge/Host-GitHub-black?logo=github)
 ![Project Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=flat-square)
 
-This project is a SQL-based Inventory Management System designed to manage and analyze inventory data efficiently. It includes creating tables, inserting data, and performing queries for better inventory control and decision-making.
+This project explores the Brazilian E-Commerce Public Dataset by Olist using PostgreSQL. The goal is to build a relational database to manage and analyze inventory, sales, and customer data, and to provide actionable insights into the performance of products, sellers, and logistics. By leveraging the dataset, this project aims to:
+- Build a structured and scalable relational database schema for effective inventory management.
+- Conduct detailed analysis to track product stock levels, identify reorder points, and optimize inventory turnover.
+- Analyze sales trends to forecast demand, identify best-selling products, and improve stock planning.
+- Gain insights into customer behavior, such as product preferences and purchasing patterns.
+- Evaluate seller performance, logistics efficiency, and fulfillment timelines to enhance the supply chain process.
+
+The Inventory Management System will incorporate features such as product categorization, supplier management, order tracking, and inventory transactions. The analytical queries will help identify potential improvements in stock management, supplier relationships, and sales forecasting, ultimately enhancing operational efficiency.
 
 > **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project)
 
