@@ -34,13 +34,18 @@ The Inventory Management System will incorporate features such as product catego
 
 ## 📌 Features
 
-- **Database Schema Design**  
-  Structured tables to store inventory data, including:
-  - Products
-  - Categories
-  - Suppliers
-  - Inventory Transactions
-  - Orders
+🗂️ Database Tables & Descriptions
+
+| Table Name        | Description |
+|-------------------|-------------|
+| **Product**       | Stores details of each product, including product ID, name, category, description, standard cost, list price, and profit margins. Essential for tracking inventory and pricing strategies. |
+| **Customer**      | Contains customer records with customer ID, name, email, phone number, address, and credit limit. Helps in managing customer relations and order tracking. |
+| **Region**        | Holds geographic information such as region name, country, state, city, and postal code. Supports location-based analysis for customers and warehouses. |
+| **Orders**        | Tracks all customer orders with order date and associated customer. Central table for managing sales activities and customer order history. |
+| **OrderDetails**  | Line-item details for each order, including quantity, per unit price, order status, and references to products and orders. Crucial for sales and inventory reconciliation. |
+| **Warehouse**     | Information about warehouse facilities, including warehouse name, address, and linked region. Important for logistics and stock distribution. |
+| **Employee**      | Records employee details such as name, email, phone, hire date, job title, and assigned warehouse. Useful for workforce management and warehouse operations. |
+
 
 - **Data Manipulation**  
   Insert, update, and manage inventory records seamlessly.
