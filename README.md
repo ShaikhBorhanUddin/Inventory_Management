@@ -10,7 +10,8 @@
 ![Git](https://img.shields.io/badge/Version%20Control-Git-orange?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/Host-GitHub-black?logo=github)
 ![Project Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=flat-square)
-
+###
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/inventory.jpg?raw=true)
 This project explores the Brazilian E-Commerce Public Dataset by Olist using PostgreSQL. The goal is to build a relational database to manage and analyze inventory, sales, and customer data, and to provide actionable insights into the performance of products, sellers, and logistics. By leveraging the dataset, this project aims to:
 - Build a structured and scalable relational database schema for effective inventory management.
 - Conduct detailed analysis to track product stock levels, identify reorder points, and optimize inventory turnover.
