@@ -1,0 +1,401 @@
+ProductID,ProductName,CategoryName,ProductDescription,ProductStandardCost,ProductListPrice,Profit
+P001,Intel Xeon E5-2699 V3 (OEM/Tray),CPU,"Speed:2.3GHz,Cores:18,TDP:145W",2867.51,3410.46,542.95
+P002,Intel Xeon E5-2697 V3,CPU,"Speed:2.6GHz,Cores:14",2326.27,2774.98,448.71
+P003,Intel Xeon E5-2698 V3 (OEM/Tray),CPU,Speed:2.3GHz,2035.18,2660.72,625.54
+P004,Intel Xeon E5-2697 V4,CPU,"Cores:18,TDP:145W",2144.4,2554.99,410.59
+P005,Intel Xeon E5-2685 V3 (OEM/Tray),CPU,"Speed:2.6GHz,Cores:12",2012.11,2501.69,489.58
+P006,Intel Xeon E5-2695 V3 (OEM/Tray),CPU,"Speed:2.3GHz,Cores:14",1925.13,2431.95,506.82
+P007,Intel Xeon E5-2697 V2,CPU,"Speed:2.7GHz,Cores:12,TDP:130W",2101.59,2377.09,275.5
+P008,Intel Xeon E5-2695 V4,CPU,"Speed:2.1GHz,Cores:18,TDP:120W",1780.35,2269.99,489.64
+P009,Intel Xeon E5-2695 V2,CPU,"Speed:2.4GHz,Cores:12,TDP:115W",1793.53,2259.99,466.46
+P010,Intel Xeon E5-2643 V2 (OEM/Tray),CPU,"Speed:3.5GHz,Cores:6",1940.18,2200,259.82
+P011,Intel Xeon E5-2690 (OEM/Tray),CPU,"Speed:2.9GHz,Cores:8",1888.33,2116.72,228.39
+P012,Intel Xeon E5-2687W V3,CPU,"Speed:3.1GHz,Cores:10,TDP:160W",1781.47,2064.99,283.52
+P013,Intel Xeon E5-2687W V4,CPU,"Speed:3.0GHz,Cores:12,TDP:160W",1723.83,2042.69,318.86
+P014,Intel Xeon E5-2667 V3 (OEM/Tray),CPU,"Speed:3.2GHz,Cores:8,TDP:135W",1504.08,2009.46,505.38
+P015,Intel Xeon E5-2690 V4,CPU,"Speed:2.6GHz,Cores:14,TDP:135W",1499.26,1994.49,495.23
+P016,Intel Xeon E5-2690 V3,CPU,"Speed:2.6GHz,Cores:12,TDP:135W",1540.35,1908.73,368.38
+P017,Intel Xeon E5-2470V2,CPU,"Speed:2.4GHz,Cores:10,TDP:95W",1671.95,1904.7,232.75
+P018,Intel Xeon E5-2683 V4,CPU,"Speed:2.1GHz,Cores:16,TDP:120W",1706.95,1899.99,193.04
+P019,Intel Xeon E5-2637 V2 (OEM/Tray),CPU,"Speed:3.5GHz,Cores:4,TDP:130W",1323.12,1850,526.88
+P020,Intel Xeon E5-2683 V4 (OEM/Tray),CPU,"Speed:2.1GHz,Cores:16,TDP:120W",1369.83,1844.89,475.06
+P021,Intel Core i7-4960X Extreme Edition,CPU,"Speed:3.6GHz,Cores:6,TDP:130W",1496.43,1805.97,309.54
+P022,Intel Xeon E5-2699 V4 (OEM/Tray),CPU,"Speed:2.2GHz,Cores:22,TDP:145W",1535.62,1756,220.38
+P023,Intel Xeon E5-1680 V3 (OEM/Tray),CPU,"Speed:3.2GHz,Cores:8,TDP:140W",1519.85,1751.99,232.14
+P024,Intel Xeon E5-2643 V4 (OEM/Tray),CPU,"Speed:3.4GHz,Cores:6,TDP:135W",1225.59,1708.86,483.27
+P025,Intel Core i7-6950X (OEM/Tray),CPU,"Speed:3.0GHz,Cores:10,TDP:140W",1479.56,1704.37,224.81
+P026,Intel Xeon E5-2670 V3,CPU,"Speed:2.3GHz,Cores:12,TDP:120W",1453.94,1676.98,223.04
+P027,Intel Xeon E5-2680,CPU,"Speed:2.7GHz,Cores:8,TDP:130W",1479.95,1666.61,186.66
+P028,Intel Xeon E5-2680 V4,CPU,"Speed:2.4GHz,Cores:14,TDP:120W",1365.13,1639.99,274.86
+P029,Intel Xeon E5-2680 V3 (OEM/Tray),CPU,"Speed:2.5GHz,Cores:12,TDP:120W",1166.89,1638.89,472
+P030,Intel Core i7-6950X,CPU,"Speed:3.0GHz,Cores:10,TDP:140W",1052.92,1499.89,446.97
+P031,Intel Xeon E5-2643 V3 (OEM/Tray),CPU,"Speed:3.4GHz,Cores:6,TDP:135W",1266.37,1469.96,203.59
+P032,Intel Xeon E5-2660 V4,CPU,"Speed:2.0GHz,Cores:14,TDP:105W",1194.03,1388.89,194.86
+P033,Intel Xeon E5-2660 V3,CPU,"Speed:2.6GHz,Cores:10,TDP:105W",1041.99,1299.73,257.74
+P034,Intel Xeon E5-2660 V3 (OEM/Tray),CPU,"Speed:2.6GHz,Cores:10",902.18,1274.99,372.81
+P035,Intel Xeon E5-2650 V2,CPU,"Speed:2.6GHz,Cores:8",961.11,1249,287.89
+P036,Intel Xeon E5-2650 V3,CPU,"Speed:2.3GHz,Cores:10",906.63,1204.98,298.35
+P037,Intel Core i7-990X Extreme Edition,CPU,"Speed:3.47GHz,Cores:6",1072.79,1199.99,127.2
+P038,Intel Xeon E5-2650 V4,CPU,"Speed:2.2GHz,Cores:12",945.11,1099.99,154.88
+P039,Intel Xeon E5-2650,CPU,"Speed:2.0GHz,Cores:8",869.03,1064.99,195.96
+P040,Intel Core i9-7900X,CPU,"Speed:3.3GHz,Cores:10",855.82,1029.99,174.17
+P041,Intel Xeon E5-1660 V3 (OEM/Tray),CPU,"Speed:3.0GHz,Cores:8",914.52,1019.99,105.47
+P042,Intel Xeon E5-2650L V3 (OEM/Tray),CPU,"Speed:1.8GHz,Cores:12",779.17,1010.46,231.29
+P043,Intel Core i7-5960X,CPU,"Speed:3.0GHz,Cores:8",865.59,1009.79,144.2
+P044,Intel Core 2 Extreme QX6800,CPU,"Speed:2.93GHz,Cores:4,TDP:100W",787.72,1003.98,216.26
+P045,Intel Core i7-5960X (OEM/Tray),CPU,"Speed:3.0GHz,Cores:8,TDP:140W",879.8,977.99,98.19
+P046,Intel Xeon E5-2650 V3 (OEM/Tray),CPU,"Speed:2.3GHz,Cores:10,TDP:105W",799.98,939.49,139.51
+P047,Intel Xeon E5-2640 V4,CPU,"Speed:2.4GHz,Cores:10",738.71,899.99,161.28
+P048,Intel Xeon E5-2640 V3,CPU,"Speed:2.6GHz,Cores:8",668.24,899.99,231.75
+P049,Intel Core 2 Extreme QX9775,CPU,Speed:3.2GHz,737.68,892,154.32
+P050,Intel Core i7-6900K,CPU,"Speed:3.2GHz,Cores:8",792.89,889.89,97
+P051,Intel Core i7-6900K (OEM/Tray),CPU,"Speed:3.2GHz,Cores:8",620.28,827.37,207.09
+P052,AMD Opteron 6378,CPU,"Speed:2.4GHz,Cores:16",651.92,826.99,175.07
+P053,Intel Core i7-3960X Extreme Edition,CPU,Speed:3.3GHz,573.41,800.74,227.33
+P054,Intel Core i7-4770K,CPU,"Speed:3.5GHz,Cores:4",714.15,799,84.85
+P055,Intel Xeon E5-2687W,CPU,"Speed:3.1GHz,Cores:8",581.16,710.99,129.83
+P056,Intel Xeon E5-2680 V2,CPU,"Speed:2.8GHz,Cores:10",567.81,701.95,134.14
+P057,Intel Core i7-980,CPU,"Speed:3.33GHz,Cores:6",563.7,699.99,136.29
+P058,Intel Core i7-7820X,CPU,"Speed:3.6GHz,Cores:8",511.1,678.75,167.65
+P059,Intel Core i7-3930K,CPU,"Speed:3.2GHz,Cores:6",509.32,660,150.68
+P060,Intel Xeon E5-2630 V4,CPU,"Speed:2.2GHz,Cores:10",528.95,647.99,119.04
+P061,Intel Xeon E5-2630 V3,CPU,"Speed:2.4GHz,Cores:8",499.96,629.99,130.03
+P062,Intel Core i7-4930K,CPU,"Speed:2.4GHz,Cores:8",527.69,624.04,96.35
+P063,Intel Core i7-4790K,CPU,"Speed:3.4GHz,Cores:6",461.92,620.95,159.03
+P064,Intel Xeon E5-2640 V2,CPU,"Speed:2.0GHz,Cores:8",545.19,608.95,63.76
+P065,Intel Xeon E5-1650 V4,CPU,"Speed:3.6GHz,Cores:6",535.47,601.99,66.52
+P066,Intel Xeon E5-1650 V4 (OEM/Tray),CPU,"Speed:3.6GHz,Cores:6",453.14,594.99,141.85
+P067,Intel Xeon E5-2630 V3 (OEM/Tray),CPU,"Speed:2.4GHz,Cores:8",421.9,589.99,168.09
+P068,Intel Xeon E5-2630 V2,CPU,"Cores:6,TDP:80W",493.48,588.95,95.47
+P069,Intel Xeon E5-1650 V3,CPU,"Cores:6,TDP:140W",399.77,564.89,165.12
+P070,Intel Core i7-5930,CPU,"Cores:6,TDP:140W",481.56,554.99,73.43
+P071,PNY VCQP6000-PB,Video Card,Memory:24GBCore Clock:1.42GHz,4058.99,5499.99,1441
+P072,PNY VCQM6000-24GB-PB,Video Card,Chipset:Quadro M6000,3619.14,4139,519.86
+P073,PNY VCQM6000-PB,Video Card,Chipset:Quadro M6000,2505.04,3254.99,749.95
+P074,ATI FirePro W9000,Video Card,Chipset:FirePro W9000,2785.55,3192.97,407.42
+P075,ATI FirePro S9150,Video Card,Chipset:FirePro S9150,2628.06,3177.44,549.38
+P076,AMD FirePro W9100,Video Card,Chipset:FirePro W9100,2483.38,2998.89,515.51
+P077,EVGA 12G-P4-3992-KR,Video Card,Chipset:GeForce GTX Titan Z,2313.07,2799.99,486.92
+P078,AMD 100-505989,Video Card,Chipset:FirePro W9100,2128.67,2699.99,571.32
+P079,PNY VCQK6000-PB,Video Card,Chipset:Quadro K6000,1740.31,2290.79,550.48
+P080,PNY VCQP5000-PB,Video Card,Chipset:Quadro P5000,1602.21,2015.11,412.9
+P081,HP C2J95AT,Video Card,Chipset:Quadro K5000,1715.91,1999.89,283.98
+P082,EVGA 12G-P4-1999-KR,Video Card,Chipset:GeForce GTX Titan X,1328.03,1799.99,471.96
+P083,PNY VCQM5000-PB,Video Card,Chipset:Quadro M5000,1268.42,1759.99,491.57
+P084,ATI FirePro S9050,Video Card,Chipset:FirePro S9050,1237.04,1699,461.96
+P085,AMD 100-5056062,Video Card,Chipset:Vega Frontier Edition Liquid,1343.84,1499.99,156.15
+P086,PNY VCQK5200-PB,Video Card,Chipset:Quadro K5200,1129.39,1449.98,320.59
+P087,AMD FirePro S7000,Video Card,Chipset:FirePro S7000,936.42,1218.5,282.08
+P088,AMD 100-506061,Video Card,Chipset:Vega Frontier Edition Liquid,706.99,999.99,293
+P089,ATI FirePro R5000,Video Card,Chipset:FirePro R5000,760.59,999.99,239.4
+P090,PNY VCQK4200-PB,Video Card,Chipset:Quadro K4200,799.05,949.89,150.84
+P091,Asus GTX780TI-3GD5,Video Card,Chipset:GeForce GTX 780 Ti,781.91,899.99,118.08
+P092,MSI GTX 1080 TI LIGHTNING Z,Video Card,Chipset:GeForce GTX 1080 Ti,688.35,873.98,185.63
+P093,Asus ROG-POSEIDON-GTX1080TI-P11G-GAMING,Video Card,Chipset:GeForce GTX 1080 Ti,696.14,864.98,168.84
+P094,MSI GTX 1080 TI LIGHTNING X,Video Card,Chipset:GeForce GTX 1080 Ti,742.94,863.98,121.04
+P095,Zotac ZT-P10810A-10P,Video Card,Chipset:GeForce GTX 1080 Ti,702.35,849.99,147.64
+P096,MSI GAMING,Video Card,Chipset:GeForce GTX 780 Ti,753.18,849.99,96.81
+P097,Asus STRIX-GTX1080TI-O11G-GAMING,Video Card,Chipset:GeForce GTX 1080 Ti,691.13,829.99,138.86
+P098,PNY VCQP4000-PB,Video Card,Chipset:Quadro P4000,725,829.89,105
+P099,Gigabyte GV-N108TAORUSX W-11GD,Video Card,Chipset:GeForce GTX 1080 Ti,596.05,824.98,228.93
+P100,Zotac ZT-70203-10P,Video Card,Chipset:GeForce GTX 780,580.42,820.61,240.19
+P101,EVGA 11G-P4-6598-KR,Video Card,Chipset:GeForce GTX 1080 Ti,663.54,809.99,146.45
+P102,MSI GTX 1080 TI SEA HAWK X,Video Card,Chipset:GeForce GTX 1080 Ti,691.32,804.98,113.66
+P103,Corsair CB-9060011-WW,Video Card,Chipset:GeForce GTX 1080 Ti,573.51,799.99,226.48
+P104,MSI GTX 1080 TI AERO 11G OC,Video Card,Chipset:GeForce GTX 1080 Ti,715.72,798.26,82.54
+P105,NVIDIA VCQM4000-PB,Video Card,Chipset:Quadro M4000,682.09,790,107.91
+P106,Gigabyte GV-N108TAORUS X-11GD,Video Card,Chipset:GeForce GTX 1080 Ti,688.35,784.98,96.63
+P107,Gigabyte GV-N1070WF2OC-8GD,Video Card,Chipset:GeForce GTX 1070,551.62,769.99,218.37
+P108,MSI GeForce GTX 1080 TI ARMOR 11G OC,Video Card,Chipset:GeForce GTX 1080 Ti,644.19,764.98,120.79
+P109,EVGA 11G-P4-6696-KR,Video Card,Chipset:GeForce GTX 1080 Ti,594.46,759.99,165.53
+P110,MSI GeForce GTX 1080 Ti GAMING X 11G,Video Card,Chipset:GeForce GTX 1080 Ti,666.59,759.99,93.4
+P111,Zotac ZT-P10810C-10P,Video Card,Chipset:GeForce GTX 1080 Ti,535.03,759.99,224.96
+P112,Zotac ZT-P10810D-10P,Video Card,Chipset:GeForce GTX 1080 Ti,580.1,759.99,179.89
+P113,PNY VCGGTX1080T11XGPB-OC,Video Card,Chipset:GeForce GTX 1080 Ti,600.92,759.99,159.07
+P114,Zotac ZT-P10810G-10P,Video Card,Chipset:GeForce GTX 1080 Ti,598.25,754.98,156.73
+P115,Gigabyte GV-N98TWF3OC-6GD,Video Card,Chipset:GeForce GTX 980 Ti,633.29,749.99,116.7
+P116,PNY VCGGTX780T3XPB-OC,Video Card,Chipset:GeForce GTX 780 Ti,592.12,749.99,157.87
+P117,MSI GTX 980 Ti Gaming 6G,Video Card,Chipset:GeForce GTX 980 Ti,539.98,745.32,205.34
+P118,Gigabyte GV-N108TAORUS-11GD,Video Card,Chipset:GeForce GTX 1080 Ti,605.3,744.98,139.68
+P119,EVGA 06G-P4-4998-KR,Video Card,Chipset:GeForce GTX 980 Ti,521.03,741.78,220.75
+P120,MSI GTX 1080 Ti DUKE 11G OC,Video Card,Memory:11GBCore Clock:1.53GHz,555.07,739.99,184.92
+P121,Crucial,Storage,"Speed:DDR4-2133,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",1139.23,1620.99,481.76
+P122,G.Skill TridentZ RGB,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:8x16GBSize:128GB",1330.26,1504.99,174.73
+P123,Corsair Dominator Platinum,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:16Module:8x16GBSize:128GB",1051.97,1449.99,398.02
+P124,G.Skill Trident Z,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:8x16GBSize:128GB",1163.49,1431.99,268.5
+P125,G.Skill Trident Z RGB,Storage,"Speed:DDR4-3333,Type:288-pin DIMM,CAS:16Module:8x16GBSize:128GB",1174.36,1418.99,244.63
+P126,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3000,Type:288-pin DIMM,CAS:14Module:8x16GBSize:128GB",1139.87,1318.99,179.12
+P127,Corsair Dominator Platinum,Storage,"Speed:DDR4-2800,Type:288-pin DIMM,CAS:15Module:8x16GBSize:128GB",1131.68,1314.99,183.31
+P128,Corsair Vengeance LPX,Storage,"Speed:DDR4-3000,Type:288-pin DIMM,CAS:15Module:8x16GBSize:128GB",912.98,1299.99,387.01
+P129,Corsair Dominator Platinum,Storage,"Speed:DDR4-2666,Type:288-pin DIMM,CAS:15Module:8x16GBSize:128GB",1068.66,1264.99,196.33
+P130,Corsair Vengeance LPX,Storage,"Speed:DDR4-2400,Type:288-pin DIMM,CAS:15Module:8x16GBSize:128GB",1019.51,1199.99,180.48
+P131,Corsair Dominator Platinum,Storage,"Speed:DDR4-2400,Type:288-pin DIMM,CAS:15Module:8x16GBSize:128GB",1002.47,1199.99,197.52
+P132,Corsair Vengeance LPX,Storage,"Speed:DDR4-2666,Type:288-pin DIMM,CAS:15Module:8x16GBSize:128GB",867.52,1163.99,296.47
+P133,Corsair Vengeance LPX,Storage,"Speed:DDR4-2133,Type:288-pin DIMM,CAS:15Module:8x16GBSize:128GB",821.91,1099.99,278.08
+P134,G.Skill Ripjaws 4 Series,Storage,"Speed:DDR4-2400,Type:288-pin DIMM,CAS:14Module:8x16GBSize:128GB",836.03,1055.99,219.96
+P135,Kingston HyperX Beast,Storage,"Speed:DDR3-1866,Type:240-pin DIMM,CAS:10Module:8x8GBSize:64GB",708.91,863.05,154.14
+P136,Crucial,Storage,"Speed:DDR4-2133,Type:288-pin DIMM,CAS:15Module:2x16GBSize:32GB",580.33,811.99,231.66
+P137,Corsair Vengeance Pro,Storage,"Speed:DDR3-2133,Type:240-pin DIMM,CAS:11Module:8x8GBSize:64GB",596.25,808.92,212.67
+P138,Corsair Dominator Platinum,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:8x8GBSize:64GB",700.5,804.99,104.49
+P139,G.Skill Trident Z RGB,Storage,"Speed:DDR4-3600,Type:288-pin DIMM,CAS:17Module:4x16GBSize:64GB",622.47,799.99,177.52
+P140,Crucial,Storage,"Speed:DDR4-2400,Type:288-pin DIMM,CAS:17Module:1x64GBSize:64GB",604.04,799,194.96
+P141,G.Skill Trident Z,Storage,"Speed:DDR4-3600,Type:288-pin DIMM,CAS:17Module:4x16GBSize:64GB",594.04,768.99,174.95
+P142,Crucial,Storage,"Speed:DDR4-2133,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",590.13,766.11,175.98
+P143,G.Skill Trident Z,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:8x8GBSize:64GB",647.83,760.99,113.16
+P144,G.Skill Trident Z,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:8x8GBSize:64GB",556.8,758.99,202.19
+P145,Corsair Dominator Platinum,Storage,"Speed:DDR4-3466,Type:288-pin DIMM,CAS:16Module:4x16GBSize:64GB",609.89,749.99,140.1
+P146,Kingston,Storage,"Speed:DDR4-2133,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",650.48,741.63,91.15
+P147,Corsair Vengeance LPX,Storage,"Speed:DDR4-3333,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",609.53,734.99,125.46
+P148,G.Skill Trident Z,Storage,"Speed:DDR4-3400,Type:288-pin DIMM,CAS:16Module:4x16GBSize:64GB",565.39,731.99,166.6
+P149,G.Skill Trident Z,Storage,"Speed:DDR4-3466,Type:288-pin DIMM,CAS:16Module:4x16GBSize:64GB",601.56,725.99,124.43
+P150,G.Skill Trident Z,Storage,"Speed:DDR4-3333,Type:288-pin DIMM,CAS:16Module:4x16GBSize:64GB",532.27,722.99,190.72
+P151,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:8x8GBSize:64GB",603.22,721.99,118.77
+P152,Corsair Dominator Platinum,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",616.53,719.99,103.46
+P153,Corsair Dominator Platinum,Storage,"Speed:DDR4-3333,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",538.55,719.99,181.44
+P154,G.Skill Trident Z,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:4x16GBSize:64GB",585.26,713.99,128.73
+P155,G.Skill Trident Z,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:4x16GBSize:64GB",533.21,713.99,180.78
+P156,G.Skill Trident Z,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",580.21,704.99,124.78
+P157,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3333,Type:288-pin DIMM,CAS:16Module:4x16GBSize:64GB",618.63,704.99,86.36
+P158,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3333,Type:288-pin DIMM,CAS:16Module:4x16GBSize:64GB",633.65,704.99,71.34
+P159,Corsair Vengeance LPX,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:8x8GBSize:64GB",565.73,699.99,134.26
+P160,Corsair Dominator Platinum,Storage,"Speed:DDR4-2800,Type:288-pin DIMM,CAS:15Module:8x8GBSize:64GB",578.46,699.89,121.43
+P161,Corsair Vengeance LPX,Storage,"Speed:DDR4-3333,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",595.42,699.01,103.59
+P162,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:4x16GBSize:64GB",617.62,695.99,78.37
+P163,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:14Module:4x16GBSize:64GB",577.25,695.99,118.74
+P164,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",517.78,686.99,169.21
+P165,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",546.64,686.99,140.35
+P166,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:8x8GBSize:64GB",602.4,680.99,78.59
+P167,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3000,Type:288-pin DIMM,CAS:14Module:8x8GBSize:64GB",546.05,677.99,131.94
+P168,Kingston,Storage,"Speed:DDR3-1333,Type:240-pin DIMM,CAS:9Module:4x16GBSize:64GB",556.84,671.38,114.54
+P169,Corsair Dominator Platinum,Storage,"Speed:DDR4-2666,Type:288-pin DIMM,CAS:15Module:8x8GBSize:64GB",537.63,659.99,122.36
+P170,Kingston,Storage,"Speed:DDR3-1600,Type:240-pin DIMM,CAS:11Module:4x8GBSize:32GB",566.98,653.5,86.52
+P171,G.Skill Trident X,Storage,"Speed:DDR3-3100,Type:240-pin DIMM,CAS:12Module:2x4GBSize:8GB",507.32,649.99,142.67
+P172,Corsair Vengeance LPX,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",571.7,645.99,74.29
+P173,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3000,Type:288-pin DIMM,CAS:14Module:4x16GBSize:64GB",499.09,645.99,146.9
+P174,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-2800,Type:288-pin DIMM,CAS:14Module:4x16GBSize:64GB",452.54,645.2,192.66
+P175,Kingston,Storage,"Speed:DDR3-1600,Type:240-pin DIMM,CAS:11Module:4x16GBSize:64GB",474.18,644,169.82
+P176,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3200,Type:288-pin DIMM,CAS:16Module:8x8GBSize:64GB",510.93,640.99,130.06
+P177,G.Skill Ripjaws V Series,Storage,"Speed:DDR4-3000,Type:288-pin DIMM,CAS:15Module:8x8GBSize:64GB",450.36,640.99,190.63
+P178,Kingston,Storage,"Speed:DDR4-3000,Type:288-pin DIMM,CAS:15Module:4x16GBSize:64GB",471.78,635.99,164.21
+P179,Intel DP35DPM,Mother Board,"CPU:LGA775,Form Factor:ATX,RAM Slots:4,Max RAM:8GB",626.22,789.79,163.57
+P180,Asus X99-E-10G WS,Mother Board,"CPU:LGA2011-3,Form Factor:SSI CEB,RAM Slots:8,Max RAM:128GB",582.02,649,66.98
+P181,Asus ROG MAXIMUS IX EXTREME,Mother Board,"CPU:LGA1151,Form Factor:EATX,RAM Slots:4,Max RAM:64GB",480.89,573.99,93.1
+P182,Asus RAMPAGE V EXTREME,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:64GB",459,572.96,113.96
+P183,Asus Z10PE-D8 WS,Mother Board,"CPU:LGA2011-3 x 2,Form Factor:SSI EEB,RAM Slots:8,Max RAM:512GB",504.14,561.59,57.45
+P184,MSI X99A GODLIKE GAMING CARBON,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:128GB",415,549.59,134.59
+P185,Supermicro H8DG6-F,Mother Board,"CPU:G34 x 2,Form Factor:EATX,RAM Slots:16,Max RAM:512GB",416.64,525.99,109.35
+P186,Asus Rampage V Edition 10,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:128GB",452.5,519.99,67.49
+P187,Gigabyte GA-Z270X-Gaming 9,Mother Board,"CPU:LGA1151,Form Factor:EATX,RAM Slots:4,Max RAM:64GB",380.05,503.98,123.93
+P188,Gigabyte X299 AORUS Gaming 9,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",395.24,499.99,104.75
+P189,ASRock E3C224D4M-16RE,Mother Board,"CPU:LGA1150,Form Factor:ATX,RAM Slots:4,Max RAM:32GB",364.79,499.99,135.2
+P190,Asus PRIME X299-DELUXE,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",409.92,487.3,77.38
+P191,Asus X99-E WS/USB 3.1,Mother Board,"CPU:LGA2011-3,Form Factor:SSI CEB,RAM Slots:8,Max RAM:128GB",428.89,482.49,53.6
+P192,Supermicro X9SRH-7TF,Mother Board,"CPU:LGA2011,Form Factor:ATX,RAM Slots:8,Max RAM:64GB",411.64,479.99,68.35
+P193,Asus Z10PE-D16 WS,Mother Board,"CPU:LGA2011-3 x 2,Form Factor:SSI EEB,RAM Slots:16,Max RAM:1TB",332.52,469.99,137.47
+P194,ASRock X99 Extreme11,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:128GB",380.55,469.99,89.44
+P195,Supermicro MBD-X10DAX,Mother Board,"CPU:LGA2011-3 x 2,Form Factor:EATX,RAM Slots:16,Max RAM:256GB",385.24,443.72,58.48
+P196,Asus X99-DELUXE/U3.1,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:64GB",332.38,440.3,107.92
+P197,Supermicro X11SSL-CF,Mother Board,"CPU:LGA1151,Form Factor:Micro ATX,RAM Slots:4,Max RAM:64GB",317.81,419.99,102.18
+P198,Asus KGPE-D16,Mother Board,"CPU:G34 x 2,Form Factor:SSI EEB,RAM Slots:16,Max RAM:256GB",360.72,417.98,57.26
+P199,Asus Z10PE-D16,Mother Board,"CPU:LGA2011-3 Narrow x 2,Form Factor:SSI EEB,RAM Slots:16,Max RAM:1TB",293.3,402.99,109.69
+P200,ASRock C2750D4I,Mother Board,"CPU:Atom C2750,Form Factor:Mini ITX,RAM Slots:4,Max RAM:64GB",339.55,401.98,62.43
+P201,Gigabyte X299 AORUS Gaming 7,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",283.91,399.99,116.08
+P202,MSI X99A GODLIKE GAMING,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:128GB",302.95,399.99,97.04
+P203,MSI X299 GAMING M7 ACK,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",278.71,397.42,118.71
+P204,Supermicro MBD-X10DRI-O,Mother Board,"CPU:LGA2011-3 Narrow x 2,Form Factor:EATX,RAM Slots:16,Max RAM:1TB",291.34,394.99,103.65
+P205,Asus MAXIMUS IX FORMULA,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",339.12,388.99,49.87
+P206,Asus X99-DELUXE II,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",289.33,383.98,94.65
+P207,ASRock Fatal1ty X299 Professional Gaming i9,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",287.5,382.98,95.48
+P208,ASRock EP2C612 WS,Mother Board,"CPU:LGA2011-3 x 2,Form Factor:SSI EEB,RAM Slots:8,Max RAM:64GB",308.84,358.49,49.65
+P209,ASRock Z270 SuperCarrier,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",264.35,353.98,89.63
+P210,Asus MAXIMUS VIII EXTREME/ASSEMBLY,Mother Board,"CPU:LGA1151,Form Factor:EATX,RAM Slots:4,Max RAM:64GB",253.41,353.98,100.57
+P211,Asus STRIX X299-E GAMING,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",306,349.99,43.99
+P212,Gigabyte X299 AORUS Ultra Gaming,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",287.78,343.99,56.21
+P213,Asus TUF X299 MARK 1,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",241.15,339.99,98.84
+P214,Asus Z170-WS,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",279.4,338.99,59.59
+P215,MSI X299 GAMING PRO CARBON AC,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",238.8,337.81,99.01
+P216,MSI X99A XPOWER GAMING TITANIUM,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:128GB",257.23,329.99,72.76
+P217,Asus ROG STRIX X99 GAMING,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",255.86,319.99,64.13
+P218,FEVGA 12G-P4-3992-KR,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:64GB",252.57,312.67,60.1
+P219,Asus PRIME X299-A,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",274.56,309.85,35.29
+P220,Gigabyte GA-X99-UD5 WIFI,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:64GB",217.83,305,87
+P221,ASRock EP2C602-4L/D16,Mother Board,"CPU:LGA2011 x 2,Form Factor:SSI EEB,RAM Slots:16,Max RAM:512GB",225.47,301.99,76.52
+P222,MSI Z170A KRAIT GAMING 3X,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",245.4,299.89,54.49
+P223,MSI Z170 Krait Gaming,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",231.58,299.89,68.31
+P224,MSI Z170A KRAIT GAMING,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",262.4,299.89,37.49
+P225,Asus MAXIMUS IX CODE,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",266.15,298.98,32.83
+P226,Asus Sabertooth 990FX,Mother Board,"CPU:AM3+,Form Factor:ATX,RAM Slots:4,Max RAM:32GB",252.31,295.72,43.41
+P227,MSI X99A WORKSTATION,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",239.95,289.97,50.02
+P228,Intel DG43RK,Mother Board,"CPU:LGA775,Form Factor:Micro ATX,RAM Slots:4,Max RAM:8GB",219.69,289.79,70.1
+P229,Asus VANGUARD B85,Mother Board,"CPU:LGA1150,Form Factor:Micro ATX,RAM Slots:4,Max RAM:32GB",258.1,287,28.9
+P230,EVGA Z270 Classified K,Mother Board,"CPU:LGA1151,Form Factor:EATX,RAM Slots:4,Max RAM:64GB",234.26,283.98,49.72
+P231,EVGA Classified,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:128GB",240.62,283.98,43.36
+P232,MSI Z270 XPOWER GAMING TITANIUM,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",212.69,282.98,70.29
+P233,ASRock X299 Taichi,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",214.36,282.98,68.62
+P234,MSI X299 TOMAHAWK ARCTIC,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",223.92,281.98,58.06
+P235,Supermicro X10SAT-O,Mother Board,"CPU:LGA1150,Form Factor:ATX,RAM Slots:4,Max RAM:32GB",207.08,281.97,74.89
+P236,Gigabyte X299 AORUS Gaming 3,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",227.48,280.98,53.5
+P237,Supermicro MBD-X10DAL-I-O,Mother Board,"CPU:LGA2011-3 x 2,Form Factor:ATX,RAM Slots:8,Max RAM:512GB",239.28,279.99,40.71
+P238,Western Digital WD10EZEX,Storage,"Series:Caviar Blue,Type:7200RPM,Capacity:1TB,Cache:64MB",35.83,47.88,12.05
+P239,Seagate ST2000DM006,Storage,"Series:Barracuda,Type:7200RPM,Capacity:2TB,Cache:64MB",47.93,66.89,18.96
+P240,Samsung MZ-75E250B/AM,Storage,"Series:850 EVO-Series,Type:SSD,Capacity:250GB,Cache:N/A",87.98,104.88,16.9
+P241,Samsung MZ-75E500B/AM,Storage,"Series:850 EVO-Series,Type:SSD,Capacity:500GB,Cache:N/A",157.81,178.09,20.28
+P242,SanDisk SDSSDA-240G-G26,Storage,"Series:SSD PLUS,Type:SSD,Capacity:240GB,Cache:N/A",61.1,83.88,22.78
+P243,Samsung MZ-V6E250,Storage,"Series:960 EVO,Type:SSD,Capacity:250GB,Cache:512MB",92.98,127.88,34.9
+P244,SA400S37/120G,Storage,"Series:A400,Type:SSD,Capacity:120GB,Cache:N/A",40.63,54.99,14.36
+P245,Samsung MZ-75E1T0B/AM,Storage,"Series:850 EVO-Series,Type:SSD,Capacity:1TB,Cache:N/A",260.23,339.99,79.76
+P246,Samsung MZ-V6E500,Storage,"Series:960 EVO,Type:SSD,Capacity:500GB,Cache:512MB",209.62,234,24.38
+P247,Seagate ST3000DM008,Storage,"Series:Barracuda,Type:7200RPM,Capacity:3TB,Cache:64MB",61.63,83.61,21.98
+P248,Western Digital WDS250G1B0A,Storage,"Series:Blue,Type:SSD,Capacity:250GB,Cache:N/A",72.54,89.89,17.35
+P249,ADATA ASU800SS-128GT-C,Storage,"Series:Ultimate SU800,Type:SSD,Capacity:128GB,Cache:N/A",37.78,52.65,14.87
+P250,Seagate ST1000DM010,Storage,"Series:BarraCuda,Type:7200RPM,Capacity:1TB,Cache:64MB",42.18,49.37,7.19
+P251,Samsung MZ-75E4T0B,Storage,"Series:850 EVO,Type:SSD,Capacity:4TB,Cache:4GB",1153.64,1499.99,346.35
+P252,Intel SSDPECME040T401,Storage,"Series:DC P3608,Type:SSD,Capacity:4TB,Cache:N/A",7123.66,7123.66,0
+P253,Western Digital WD2003FZEX,Storage,"Series:BLACK SERIES,Type:7200RPM,Capacity:2TB,Cache:64MB",7123.66,7123.66,0
+P254,Samsung MZ-V6P512BW,Storage,"Series:960 PRO,Type:SSD,Capacity:512GB,Cache:512MB",7123.66,7123.66,0
+P255,Hitachi HUS724030ALE641,Storage,"Series:Ultrastar 7K4000,Type:7200RPM,Capacity:3TB,Cache:64MB",7123.66,7123.66,0
+P256,Samsung MZ-V6P2T0BW,Storage,"Series:960 Pro,Type:SSD,Capacity:2TB,Cache:2GB",7123.66,7123.66,0
+P257,Seagate ST10000DM0004,Storage,"Series:BarraCuda Pro,Type:7200RPM,Capacity:10TB,Cache:256MB",7123.66,7123.66,0
+P258,ADATA ASU800SS-512GT-C,Storage,"Series:Ultimate SU800,Type:SSD,Capacity:512GB,Cache:N/A",7123.66,7123.66,0
+P259,Samsung MZ-V6E1T0,Storage,"Series:960 EVO,Type:SSD,Capacity:1TB,Cache:1000MB",7123.66,7123.66,0
+P260,Western Digital WD1003FZEX,Storage,"Series:BLACK SERIES,Type:7200RPM,Capacity:1TB,Cache:64MB",7123.66,7123.66,0
+P261,SanDisk SDSSDA-120G-G26,Storage,"Series:SSD PLUS,Type:SSD",7123.66,7123.66,0
+P262,Crucial CT525MX300SSD1,Storage,"Series:MX300,Type:SSD,Capacity:525GB,Cache:N/A",7123.66,7123.66,0
+P263,Hitachi A7K1000-1000,Storage,"Series:Ultrastar,Type:7200RPM,Capacity:1TB,Cache:32MB",7123.66,7123.66,0
+P264,Samsung MZ-V6P1T0BW,Storage,"Series:960 Pro,Type:SSD,Capacity:1TB,Cache:1GB",7123.66,7123.66,0
+P265,Samsung MZ-7KE256BW,Storage,"Series:850 Pro Series,Type:SSD,Capacity:256GB,Cache:N/A",7123.66,7123.66,0
+P266,Seagate ST2000DX002,Storage,"Series:FireCuda,Type:Hybrid,Capacity:2TB,Cache:64MB",7123.66,7123.66,0
+P267,Western Digital WD5000AACS,Storage,"Series:Caviar Green,Type:5400RPM,Capacity:500GB,Cache:16MB",7123.66,7123.66,0
+P268,SanDisk SDSSDHII-240G-G25,Storage,"Series:Ultra II,Type:SSD,Capacity:240GB,Cache:N/A",7123.66,7123.66,0
+P269,PNY SSD7CS1311-120-RB,Storage,"Series:CS1311,Type:SSD,Capacity:120GB,Cache:N/A",7123.66,7123.66,0
+P270,PNY SSD9SC240GMDA-RB,Storage,"Series:XLR8,Type:SSD,Capacity:240GB,Cache:N/A",7123.66,7123.66,0
+P271,Crucial CT1050MX300SSD1,Storage,"Series:MX300,Type:SSD,Capacity:1.1TB,Cache:N/A",7123.66,7123.66,0
+P272,Western Digital WDS250G1B0B,Storage,"Series:Blue,Type:SSD,Capacity:250GB,Cache:N/A",7123.66,7123.66,0
+P273,Samsung MZ-75E120B/AM,Storage,"Series:850 EVO-Series,Type:SSD,Capacity:120GB,Cache:N/A",74.41,88.99,14.58
+P274,Western Digital WDS500G1B0B,Storage,"Series:Blue,Type:SSD,Capacity:500GB,Cache:N/A",106.89,149.88,42.99
+P275,Hitachi HUA723020ALA640,Storage,"Series:Ultrastar 7K3000,Type:7200RPM,Capacity:2TB,Cache:64MB",45.18,59.99,14.81
+P276,Western Digital WD2500AVVS,Storage,"Series:AV-GP,Type:5400RPM,Capacity:250GB,Cache:8MB",12.63,15.55,2.92
+P277,Seagate ST1000DX002,Storage,"Series:FireCuda,Type:Hybrid,Capacity:1TB,Cache:64MB",55.41,68.06,12.65
+P278,Crucial CT275MX300SSD1,Storage,"Series:MX300,Type:SSD,Capacity:275GB,Cache:N/A",79.21,97.88,18.67
+P279,Seagate ST31000340NS - FFP,Storage,"Series:Barracuda ES,Type:7200RPM,Capacity:1TB,Cache:32MB",34.4,43.99,9.59
+P280,Western Digital WD101KRYZ,Storage,"Series:Gold,Type:7200RPM,Capacity:10TB,Cache:256MB",313.96,443.64,129.68
+P281,Crucial CT525MX300SSD4,Storage,"Series:MX300,Type:SSD,Capacity:525GB,Cache:N/A",121.92,150.99,29.07
+P282,Western Digital WD2500AAJS,Storage,"Series:Caviar Blue,Type:7200RPM,Capacity:250GB,Cache:8MB",15.23,16.99,1.76
+P283,Western Digital WD20EZRZ,Storage,"Series:Blue,Type:5400RPM,Capacity:2TB,Cache:64MB",58.01,67.34,9.33
+P284,Western Digital WDS256G1X0C,Storage,"Series:Black PCIe,Type:SSD,Capacity:256GB,Cache:N/A",85.87,109.99,24.12
+P285,SanDisk SDSSDHII-480G-G25,Storage,"Series:Ultra II,Type:SSD,Capacity:480GB,Cache:N/A",102.62,141.56,38.94
+P286,Kingston  SV300S37A/120G,Storage,"Series:SSDNow V300 Series,Type:SSD,Capacity:120GB,Cache:N/A",45.93,59.87,13.94
+P287,Kingston (KVR800D2N6/2G) DDR2 2GB,RAM,"Series:DIMM, Type:DDR2,Capacity:2GB,Frequency:800Mhz",760,950,190
+P288,Hynix Genuine (H15201504-11) 4 GB DDR3,RAM,"Series:Genuine, Type:DDR3, Capacity:4GB, Frequency:N/A",1365,1575,210
+P289,HP (500203-061) 4GB DDR3,RAM,"Series:N/A, Type:DDR3, Capacity:4GB, Frequency:N/A",2980,3172,192
+P290,Corsair Vengeance LPX (CMK8GX4M1A2400C16R) 8GB,RAM,"Series:16-16-16-39, Type:DDR4, Capacity:8GB, Frequency:2400Mhz",5790,5990,200
+P291,Hynix (H15201504-8) Genuine DDR2 2 GB,RAM,"Series:Genuine, Type:DDR2, Capacity:2GB, Frequency:N/A",299,499,200
+P292,Hynix 1333FSB 4GB DDR3,RAM,"Series:N/A, Type:DDR3, Capacity:4GB, Frequency:N/A",1565,1790,225
+P293,Kingston HyperX FURY (HX318C10F/4) DDR3 4GB,RAM,"Series:HyperX FURY Memory, Type:DDR3, Capacity:4GB, Frequency:N/A",2425,2625,200
+P294,Simmtronics 2GB DDR2 667Mhz,RAM,"Series:N/A, Type:DDR2, Capacity:2GB, Frequency:667Mhz",465,699,234
+P295,Samsung (M378T5263AZ3) 2GB DDR2,RAM,"Series:Original, Type:DDR2, Capacity:2GB, Frequency:N/A",1165,1390,225
+P296,Transcend (JM1333KLN-4G) DDR3 4GB,RAM,"Series:DDR3-1333, Type:DDR3, Capacity:4GB, Frequency:166Mhz",2756,2996,240
+P297,Kingston (KVR1333D3N9/4G) DDR3 4GB,RAM,"Series:KVR, Type:DDR3, Capacity:4GB, Frequency:N/A",1850,2100,250
+P298,Adata Premier (AD3U1600C2G11-R) 2GB DDR3,RAM,"Series:premier, Type:DDR3, Capacity:2GB, Frequency:N/A",925,1190,265
+P299,Corsair Vengeance LPX (CMK16GX4M2B3000C15B) 16GB,RAM,"Series:N/A, Type:DDR3, Capacity:16GB, Frequency:N/A",13250,14999,1749
+P300,Kingston (KVR800D2N6K2) 4GB (2 x 2 GB) DDR2,RAM,"Series:N/A, Type:DDR2, Capacity:4GB, Frequency:N/A",1829,2050,221
+P301,Simmtronics 2GB DDR2 800Mhz,RAM,"Series:Genuine, Type:DDR2, Capacity:2GB, Frequency:800Mhz",585,695,110
+P302,Kingston (KVR1333D3N9/2G) DDR3 2GB,RAM,"Series:DDR, Type:DDR3, Capacity:2GB, Frequency:133Mhz",799,999,200
+P303,Adata XPG (AX3U1600W4G11-RD) 4GB,RAM,"Series:N/A, Type:DDR3, Capacity:4GB, Frequency:N/A",2399,2499,100
+P304,Kingston Fury (HX316C10FB/8) 8 GB,RAM,"Series:HyperXFury, Type:DDR3, Capacity:8GB, Frequency:1866Mhz",4150,4350,200
+P305,Hynix (H15201504-9) Genuine DDR3 2 GB,RAM,"Series:HynixGenuine, Type:DDR3, Capacity:2GB, Frequency:N/A",485,590,105
+P306,G.Skill TridentX (F3-2400C10D-8GTX) DDR3 8GB,RAM,"Series:TridentX, Type:DDR3, Capacity:8GB, Frequency:1600Mhz",12578,14540,1962
+P307,G.Skill RipjawsX (F3-1600C9Q-32GXM) DDR3 32 GB,RAM,"Series:RipjawX, Type:DDR3, Capacity:32GB, Frequency:1600Mhz",75410,78180,2770
+P308,Transcend JetRam (JM1600KLH-8G) DDR3 8GB,RAM,"Series:Jetram, Type:DDR3, Catrapacity:8GB, Frequency:1600Mhz",3250,3570,320
+P309,Kingston HyperX FURY (HX318C10F/8) DDR3 8GB,RAM,"Series:HyperXFury, Type:DDR3, Capacity:8GB, Frequency:N/A",4210,4540,330
+P310,Kingston HyperX FURY (HX316C10FR/8) DDR3 8GB,RAM,"Series:HyperXFury, Type:DDR3, Capacity:8GB, Frequency:1866Mhz",4254,4350,96
+P311,Transcend JetRam (JM1600KLH-4G) DDR3 4GB,RAM,"Series:Jetram, Type:DDR3, Capacity:4GB, Frequency:N/A",4154,4245,91
+P312,Transcend TS512MLK64V3N DDR3 4GB,RAM,"Series:N/A, Type:DDR3, Capacity:4GB, Frequency:1333Mhz",4250,4500,250
+P313,Transcend (TS512MLK64W6H) DDR3 4GB,RAM,"Series:N/A, Type:DDR3, Capacity:4GB, Frequency:1600Mhz",2300,2549,249
+P314,Hynix 6671G DDR2 1GB,RAM,"Series:Genuine, Type:DDR2, Capacity:1GB, Frequency:N/A",330,330,0
+P315,Kingston ValueRAM (KVR1333D3N9/8G) 8 GB DDR3,RAM,"Series:N/A, Type:DDR3, Capacity:4GB, Frequency:1333Mhz",3800,4150,350
+P316,Zion ZHY16004096 4 GB Ddr3,RAM,"Series:ZHY, Type:DDR3, Capacity:4GB, Frequency:N/A",2550,2700,150
+P317,Kingston KVR (KVR16N11/8-SP) 8 GB DDR3,RAM,"Series:KVR, Type:DDR3, Capacity:8GB, Frequency:N/A",3400,3698,298
+P318,Hynix (HYMD2GB) 2GB DDR2,RAM,"Series:2, Type:DDR2, Capacity:2GB, Frequency:N/A",498,498,0
+P319,Silicon Power (SP008GBLFU240B02) 8GB DDR4,RAM,"Series:Genuine, Type:DDR4, Capacity:8GB, Frequency:N/A",3100,3599,499
+P320,A-DATA (AX4U300038G16-SRS) 8GB DDR4,RAM,"Series:Genuine, Type:DDR4, Capacity:8GB, Frequency:4000Mhz",5000,6990,1990
+P321,Intel Xeon E5-2697 V2,CPU,"Speed:2.7GHz,Cores:12,TDP:130W",2101.59,2377.09,275.5
+P322,Intel Xeon E5-2695 V4,CPU,"Speed:2.1GHz,Cores:18,TDP:120W",1780.35,2269.99,489.64
+P323,Intel Xeon E5-2695 V2,CPU,"Speed:2.4GHz,Cores:12,TDP:115W",1793.53,2259.99,466.46
+P324,Intel Xeon E5-2643 V2 (OEM/Tray),CPU,"Speed:3.5GHz,Cores:6",1940.18,2200,259.82
+P325,Intel Xeon E5-2690 (OEM/Tray),CPU,"Speed:2.9GHz,Cores:8",1888.33,2116.72,228.39
+P326,Intel Xeon E5-2687W V3,CPU,"Speed:3.1GHz,Cores:10,TDP:160W",1781.47,2064.99,283.52
+P327,Intel Xeon E5-2687W V4,CPU,"Speed:3.0GHz,Cores:12,TDP:160W",1723.83,2042.69,318.86
+P328,Intel Xeon E5-2667 V3 (OEM/Tray),CPU,"Speed:3.2GHz,Cores:8,TDP:135W",1504.08,2009.46,505.38
+P329,Intel Xeon E5-2690 V4,CPU,"Speed:2.6GHz,Cores:14,TDP:135W",1499.26,1994.49,495.23
+P330,Intel Xeon E5-2690 V3,CPU,"Speed:2.6GHz,Cores:12,TDP:135W",1540.35,1908.73,368.38
+P331,Intel Xeon E5-2470V2,CPU,"Speed:2.4GHz,Cores:10,TDP:95W",1671.95,1904.7,232.75
+P332,Intel Xeon E5-2683 V4,CPU,"Speed:2.1GHz,Cores:16,TDP:120W",1706.95,1899.99,193.04
+P333,Intel Xeon E5-2637 V2 (OEM/Tray),CPU,"Speed:3.5GHz,Cores:4,TDP:130W",1323.12,1850,526.88
+P334,Intel Xeon E5-2683 V4 (OEM/Tray),CPU,"Speed:2.1GHz,Cores:16,TDP:120W",1369.83,1844.89,475.06
+P335,Intel Core i7-4960X Extreme Edition,CPU,"Speed:3.6GHz,Cores:6,TDP:130W",1496.43,1805.97,309.54
+P336,Intel Xeon E5-2699 V4 (OEM/Tray),CPU,"Speed:2.2GHz,Cores:22,TDP:145W",1535.62,1756,220.38
+P337,Intel Xeon E5-1680 V3 (OEM/Tray),CPU,"Speed:3.2GHz,Cores:8,TDP:140W",1519.85,1751.99,232.14
+P338,Intel Xeon E5-2643 V4 (OEM/Tray),CPU,"Speed:3.4GHz,Cores:6,TDP:135W",1225.59,1708.86,483.27
+P339,Intel Core i7-6950X (OEM/Tray),CPU,"Speed:3.0GHz,Cores:10,TDP:140W",1479.56,1704.37,224.81
+P340,Intel Xeon E5-2670 V3,CPU,"Speed:2.3GHz,Cores:12,TDP:120W",1453.94,1676.98,223.04
+P341,Intel SSDPECME040T401,Storage,"Series:DC P3608,Type:SSD,Capacity:4TB,Cache:N/A",7123.66,7123.66,0
+P342,Western Digital WD2003FZEX,Storage,"Series:BLACK SERIES,Type:7200RPM,Capacity:2TB,Cache:64MB",7123.66,7123.66,0
+P343,Samsung MZ-V6P512BW,Storage,"Series:960 PRO,Type:SSD,Capacity:512GB,Cache:512MB",7123.66,7123.66,0
+P344,Hitachi HUS724030ALE641,Storage,"Series:Ultrastar 7K4000,Type:7200RPM,Capacity:3TB,Cache:64MB",7123.66,7123.66,0
+P345,Samsung MZ-V6P2T0BW,Storage,"Series:960 Pro,Type:SSD,Capacity:2TB,Cache:2GB",7123.66,7123.66,0
+P346,Seagate ST10000DM0004,Storage,"Series:BarraCuda Pro,Type:7200RPM,Capacity:10TB,Cache:256MB",7123.66,7123.66,0
+P347,ADATA ASU800SS-512GT-C,Storage,"Series:Ultimate SU800,Type:SSD,Capacity:512GB,Cache:N/A",7123.66,7123.66,0
+P348,Samsung MZ-V6E1T0,Storage,"Series:960 EVO,Type:SSD,Capacity:1TB,Cache:1000MB",7123.66,7123.66,0
+P349,Western Digital WD1003FZEX,Storage,"Series:BLACK SERIES,Type:7200RPM,Capacity:1TB,Cache:64MB",7123.66,7123.66,0
+P350,SanDisk SDSSDA-120G-G26,Storage,"Series:SSD PLUS,Type:SSD",7123.66,7123.66,0
+P351,Crucial CT525MX300SSD1,Storage,"Series:MX300,Type:SSD,Capacity:525GB,Cache:N/A",7123.66,7123.66,0
+P352,Hitachi A7K1000-1000,Storage,"Series:Ultrastar,Type:7200RPM,Capacity:1TB,Cache:32MB",7123.66,7123.66,0
+P353,Samsung MZ-V6P1T0BW,Storage,"Series:960 Pro,Type:SSD,Capacity:1TB,Cache:1GB",7123.66,7123.66,0
+P354,Samsung MZ-7KE256BW,Storage,"Series:850 Pro Series,Type:SSD,Capacity:256GB,Cache:N/A",7123.66,7123.66,0
+P355,Seagate ST2000DX002,Storage,"Series:FireCuda,Type:Hybrid,Capacity:2TB,Cache:64MB",7123.66,7123.66,0
+P356,Western Digital WD5000AACS,Storage,"Series:Caviar Green,Type:5400RPM,Capacity:500GB,Cache:16MB",7123.66,7123.66,0
+P357,SanDisk SDSSDHII-240G-G25,Storage,"Series:Ultra II,Type:SSD,Capacity:240GB,Cache:N/A",7123.66,7123.66,0
+P358,PNY SSD7CS1311-120-RB,Storage,"Series:CS1311,Type:SSD,Capacity:120GB,Cache:N/A",7123.66,7123.66,0
+P359,PNY SSD9SC240GMDA-RB,Storage,"Series:XLR8,Type:SSD,Capacity:240GB,Cache:N/A",7123.66,7123.66,0
+P360,Crucial CT1050MX300SSD1,Storage,"Series:MX300,Type:SSD,Capacity:1.1TB,Cache:N/A",7123.66,7123.66,0
+P361,Asus ROG STRIX X99 GAMING,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",255.86,319.99,64.13
+P362,Asus SABERTOOTH X99,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:64GB",252.57,312.67,60.1
+P363,Asus PRIME X299-A,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",274.56,309.85,35.29
+P364,Gigabyte GA-X99-UD5 WIFI,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:64GB",217.83,305,87
+P365,ASRock EP2C602-4L/D16,Mother Board,"CPU:LGA2011 x 2,Form Factor:SSI EEB,RAM Slots:16,Max RAM:512GB",225.47,301.99,76.52
+P366,MSI Z170A KRAIT GAMING 3X,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",245.4,299.89,54.49
+P367,MSI Z170 Krait Gaming,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",231.58,299.89,68.31
+P368,MSI Z170A KRAIT GAMING,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",262.4,299.89,37.49
+P369,Asus MAXIMUS IX CODE,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",266.15,298.98,32.83
+P370,Asus Sabertooth 990FX,Mother Board,"CPU:AM3+,Form Factor:ATX,RAM Slots:4,Max RAM:32GB",252.31,295.72,43.41
+P371,MSI X99A WORKSTATION,Mother Board,"CPU:LGA2011-3,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",239.95,289.97,50.02
+P372,Intel DG43RK,Mother Board,"CPU:LGA775,Form Factor:Micro ATX,RAM Slots:4,Max RAM:8GB",219.69,289.79,70.1
+P373,Asus VANGUARD B85,Mother Board,"CPU:LGA1150,Form Factor:Micro ATX,RAM Slots:4,Max RAM:32GB",258.1,287,28.9
+P374,EVGA Z270 Classified K,Mother Board,"CPU:LGA1151,Form Factor:EATX,RAM Slots:4,Max RAM:64GB",234.26,283.98,49.72
+P375,EVGA Classified,Mother Board,"CPU:LGA2011-3,Form Factor:EATX,RAM Slots:8,Max RAM:128GB",240.62,283.98,43.36
+P376,MSI Z270 XPOWER GAMING TITANIUM,Mother Board,"CPU:LGA1151,Form Factor:ATX,RAM Slots:4,Max RAM:64GB",212.69,282.98,70.29
+P377,ASRock X299 Taichi,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",214.36,282.98,68.62
+P378,MSI X299 TOMAHAWK ARCTIC,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",223.92,281.98,58.06
+P379,Supermicro X10SAT-O,Mother Board,"CPU:LGA1150,Form Factor:ATX,RAM Slots:4,Max RAM:32GB",207.08,281.97,74.89
+P380,ASRock EP2C602-4L/D16,Mother Board,"CPU:LGA2066,Form Factor:ATX,RAM Slots:8,Max RAM:128GB",227.48,280.98,53.5
+P381,EVGA 12G-P4-3992-KR,Video Card,Chipset:GeForce GTX Titan Z,2313.07,2799.99,486.92
+P382,AMD 100-505989,Video Card,Chipset:FirePro W9100,2128.67,2699.99,571.32
+P383,PNY VCQK6000-PB,Video Card,Chipset:Quadro K6000,1740.31,2290.79,550.48
+P384,PNY VCQP5000-PB,Video Card,Chipset:Quadro P5000,1602.21,2015.11,412.9
+P385,HP C2J95AT,Video Card,Chipset:Quadro K5000,1715.91,1999.89,283.98
+P386,EVGA 12G-P4-1999-KR,Video Card,Chipset:GeForce GTX Titan X,1328.03,1799.99,471.96
+P387,PNY VCQM5000-PB,Video Card,Chipset:Quadro M5000,1268.42,1759.99,491.57
+P388,ATI FirePro S9050,Video Card,Chipset:FirePro S9050,1237.04,1699,461.96
+P389,AMD 100-5056062,Video Card,Chipset:Vega Frontier Edition Liquid,1343.84,1499.99,156.15
+P390,PNY VCQK5200-PB,Video Card,Chipset:Quadro K5200,1129.39,1449.98,320.59
+P391,AMD FirePro S7000,Video Card,Chipset:FirePro S7000,936.42,1218.5,282.08
+P392,AMD 100-506061,Video Card,Chipset:Vega Frontier Edition Liquid,706.99,999.99,293
+P393,ATI FirePro R5000,Video Card,Chipset:FirePro R5000,760.59,999.99,239.4
+P394,PNY VCQK4200-PB,Video Card,Chipset:Quadro K4200,799.05,949.89,150.84
+P395,Asus GTX780TI-3GD5,Video Card,Chipset:GeForce GTX 780 Ti,781.91,899.99,118.08
+P396,MSI GTX 1080 TI LIGHTNING Z,Video Card,Chipset:GeForce GTX 1080 Ti,688.35,873.98,185.63
+P397,Asus ROG-POSEIDON-GTX1080TI-P11G-GAMING,Video Card,Chipset:GeForce GTX 1080 Ti,696.14,864.98,168.84
+P398,MSI GTX 1080 TI LIGHTNING X,Video Card,Chipset:GeForce GTX 1080 Ti,742.94,863.98,121.04
+P399,Zotac ZT-P10810A-10P,Video Card,Chipset:GeForce GTX 1080 Ti,702.35,849.99,147.64
+P400,MSI GAMING,Video Card,Chipset:GeForce GTX 780 Ti,753.18,849.99,96.81
