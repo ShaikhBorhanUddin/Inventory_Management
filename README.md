@@ -21,7 +21,7 @@ This project explores the Brazilian E-Commerce Public Dataset by Olist using Pos
 
 The Inventory Management System will incorporate features such as product categorization, supplier management, order tracking, and inventory transactions. The analytical queries will help identify potential improvements in stock management, supplier relationships, and sales forecasting, ultimately enhancing operational efficiency.
 
-> **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project)
+> **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/tree/main/Dataset)
 
 ## 🗂️ Project Structure
 
