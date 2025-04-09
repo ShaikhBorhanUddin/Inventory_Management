@@ -1,10 +1,15 @@
 # Inventory Management Project 📦
-
-![GitHub repo size](https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Inventory_Management_Project)
-![GitHub stars](https://img.shields.io/github/stars/ShaikhBorhanUddin/Inventory_Management_Project?style=social)
-![GitHub forks](https://img.shields.io/github/forks/ShaikhBorhanUddin/Inventory_Management_Project?style=social)
+<!-- Project Badges -->
+![Made with](https://img.shields.io/badge/Made%20with-SQL-blue?logo=database)
 ![License](https://img.shields.io/github/license/ShaikhBorhanUddin/Inventory_Management_Project)
-![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue)
+![Repo Size](https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Inventory_Management_Project)
+![Stars](https://img.shields.io/github/stars/ShaikhBorhanUddin/Inventory_Management_Project?style=social)
+![Forks](https://img.shields.io/github/forks/ShaikhBorhanUddin/Inventory_Management_Project?style=social)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791?logo=postgresql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Data%20Visualization-E97627?logo=Tableau&logoColor=white)
+![Git](https://img.shields.io/badge/Version%20Control-Git-orange?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/Host-GitHub-black?logo=github)
+![Project Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=flat-square)
 
 This project is a SQL-based Inventory Management System designed to manage and analyze inventory data efficiently. It includes creating tables, inserting data, and performing queries for better inventory control and decision-making.
 
