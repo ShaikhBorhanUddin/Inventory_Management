@@ -65,7 +65,7 @@ The Inventory Management System will incorporate features such as product catego
 
 - **SQL**
 - **PostgreSQL** *(Recommended, but works with other RDBMS with minor adjustments)*
-
+- **Tableau**
 ## 🚀 Getting Started
 
 To run this project locally:
@@ -83,24 +83,23 @@ To run this project locally:
 
 ## ❓ Query Questions
 
-The following business questions can be answered using this project’s SQL queries:
+The following business questions are answered (with Tableau visualization) using this project’s SQL queries:
 
-1. **What are the details of all products?**
-2. **List all suppliers.**
-3. **Get details of all categories.**
-4. **Show all inventory transactions.**
-5. **Retrieve all orders.**
-6. **Find products with quantity in stock less than 100.**
-7. **List suppliers from a specific city ('New York').**
-8. **Get total quantity in stock for each category.**
-9. **Find the supplier name for each product.**
-10. **List products along with their category names.**
-11. **Show the total number of products supplied by each supplier.**
-12. **Get the total inventory value (quantity_in_stock * price) for each product.**
-13. **List products that have never been ordered.**
-14. **Find the most recent inventory transactions.**
-15. **Retrieve pending orders.**
-16. **List completed orders.**
+1. **What are the top 5 products with the highest total revenue, considering OrderItemQuantity and PerUnitPrice?**
+2. **Which customers have spent the most money, and what is their total spending? (Top 10 customers by total spending)**
+3. **Which product category generates the top 3 highest total revenue?**
+4. **Which month had the highest total sales revenue?**
+5. **Which warehouse has handled the highest total order quantity?**
+6. **Which employee has processed the highest number of orders?**
+7. **What is the average order value (AOV) per customer?**
+8. **Which region generates the highest total revenue?**
+9. **Which product has the highest profit margin, and what is the margin percentage?**
+10. **Which day of the week has the highest total sales revenue?**
+11. **Which customers has placed the highest number of orders?**
+12. **Which employee has been working the longest (oldest hire date)?**
+13. **Which product category has generated the highest total revenue?**
+14. **Which warehouse has the highest total inventory cost (sum of ProductStandardCost for all stored products)?**
+15. **Which product has the highest total quantity sold?**
 
 ## 📊 Sample Queries
 
