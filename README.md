@@ -25,7 +25,6 @@ The Inventory Management System will incorporate features such as product catego
 
 ## 🗂️ Project Structure
 
-- `Inventory_management.sql`  
   This SQL script contains:
   - Database creation
   - Table definitions
