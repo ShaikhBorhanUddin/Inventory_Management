@@ -21,8 +21,9 @@ LIMIT 5;
 |P267     |Western Digital WD5000AACS          |328038.42   |
 ## Visualization
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/Sheet%201.png?raw=true)
---Q2: Which customers have spent the most money, and what is their total spending? (Top 10 customers by total spending)
-
+## Q2: Which customers have spent the most money, and what is their total spending? (Top 10 customers by total spending)
+## Solution
+```SQL
 SELECT 
     c.CustomerID, 
     c.CustomerName, 
@@ -33,7 +34,22 @@ JOIN OrderDetails od ON o.OrderID = od.OrderID
 GROUP BY c.CustomerID, c.CustomerName
 ORDER BY TotalSpending DESC
 LIMIT 10;
-
+```
+## Output
+|customerid|customername        |totalspending|
+|----------|--------------------|-------------|
+|2659      |Shields Seffi       |600155.00    |
+|2546      |Bill Stein          |550487.00    |
+|2604      |Daina Combs         |389855.70    |
+|2573      |Mac Mckay           |344872.35    |
+|2567      |Alessandra Estrada  |328038.42    |
+|2401      |Samara Barnett      |323400.00    |
+|2607      |Darron Robertson    |307683.51    |
+|2456      |Glinda Lambert      |302398.88    |
+|2513      |Herman Stokes       |300139.18    |
+|2410      |Reva Fuller         |292382.07    |
+## Visualization
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/Sheet%202.png?raw=true)
 --Q3: Which product category generates the top 3 highest total revenue?
 
 SELECT 
