@@ -256,7 +256,7 @@ GROUP BY p.ProductID, p.ProductName
 ORDER BY TotalQuantitySold DESC
 LIMIT 1;
 
---Q16: List all Canceled orders.
+--Q16: Which orders were cancelled?
 
 SELECT 
     p.ProductID, 
@@ -269,7 +269,8 @@ WHERE od.OrderStatus IN ('Canceled')
 GROUP BY p.ProductID, p.ProductName, od.OrderStatus
 ORDER BY ReturnCount DESC;
 
--- Q17: Number of Employees per Warehouse with Country Name
+-- Q17: List number of employees per Warehouse with Country Name.
+
 SELECT 
     w.WarehouseID,
     w.WarehouseName,
@@ -281,7 +282,7 @@ LEFT JOIN Employee e ON w.WarehouseID = e.WarehouseID
 GROUP BY w.WarehouseID, w.WarehouseName, r.CountryName
 ORDER BY EmployeeCount DESC;
 
--- Q18: Employees Hired in the Last 10 Years
+-- Q18: Which employees were hired in the Last 10 Years?
 SELECT 
     EmployeeID,
     EmployeeName,
@@ -292,7 +293,7 @@ FROM Employee e
 JOIN Warehouse w ON e.WarehouseID = w.WarehouseID
 WHERE EmployeeHireDate >= CURRENT_DATE - INTERVAL '10 year';
 
--- Q19: Total Orders Fulfilled by Region
+-- Q19: find Total Orders Fulfilled by Region
 SELECT 
     r.RegionID,
     r.RegionName,
@@ -304,7 +305,7 @@ JOIN Orders o ON o.CustomerID IS NOT NULL  -- Simulate fulfillment (assuming all
 GROUP BY r.RegionID, r.RegionName;
 
 
--- Q20: Product Distribution by City
+-- Q20: Find Product Distribution by City
 SELECT 
     r.City,
     COUNT(DISTINCT od.ProductID) AS UniqueProductsDistributed
@@ -315,7 +316,7 @@ JOIN Orders o ON o.CustomerID IS NOT NULL
 JOIN OrderDetails od ON o.OrderID = od.OrderID
 GROUP BY r.City;
 
--- Q21: Revenue Contribution by State and Country
+-- Q21: Find Revenue Contribution by State and Country.
 SELECT 
     r.CountryName,
     r.State,
@@ -328,7 +329,7 @@ JOIN OrderDetails od ON o.OrderID = od.OrderID
 GROUP BY r.CountryName, r.State
 ORDER BY TotalRevenue DESC;
 
--- Q22: Top Warehouses by Employee Count and Sales
+-- Q22: Display Top Warehouses by Employee Count and Sales
 SELECT 
     w.WarehouseID,
     w.WarehouseName,
@@ -342,7 +343,7 @@ GROUP BY w.WarehouseID, w.WarehouseName
 ORDER BY TotalSales DESC
 LIMIT 10;
 
--- Q23: Employee Roster by Region
+-- Q23: Show Employee Roster by Region.
 SELECT 
     e.EmployeeID,
     e.EmployeeName,
@@ -355,7 +356,7 @@ FROM Employee e
 JOIN Warehouse w ON e.WarehouseID = w.WarehouseID
 JOIN Region r ON w.RegionID = r.RegionID;
 
--- Q24: Warehouse Coverage by Country
+-- Q24: Display Warehouse Coverage by Country.
 SELECT 
     r.CountryName,
     COUNT(DISTINCT w.WarehouseID) AS NumberOfWarehouses
