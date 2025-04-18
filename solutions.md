@@ -168,7 +168,7 @@ LIMIT 15;
 |2529      |Kandi Holden        |254598.660000000000   |
 
 ## Visualization
-![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/Sheet%207.png?raw=true)
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%207mod.png?raw=true)
 # Q8: Which product has the highest profit margin, and what is the margin percentage?
 ## Solution
 ```SQL
