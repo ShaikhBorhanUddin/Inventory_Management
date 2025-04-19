@@ -68,11 +68,12 @@ To run this project locally:
 ```bash
 Inventory_Management/
 │
-├── Dataset/                         # Contains raw CSV files
-├── Images/                          # Tableau Visualization
-├── queries/                      # SQL scripts for business insights and reporting
-├── analysis/                     # Excel or notebook files for additional data analysis
-└── README.md                     # Project documentation
+├── Dataset/                                    # Contains raw CSV files
+├── Images/                                     # Tableau Visualization
+├── Inventory_management_updated.sql            # SQL scripts for business insights and reporting
+├── Licence
+├── README.md                                   # Overvier of the project
+└── Solutions.md                                # Query solution documentation
 ```
 ## ❓ Query Questions
 
