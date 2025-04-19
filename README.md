@@ -29,7 +29,7 @@ The solution is built around structured datasets and SQL scripts that demonstrat
 - Stock Alerts & Replenishment Insights: Identify products with low stock and suggest restocking based on predefined thresholds.
 - Comprehensive Queries: Execute analytical SQL queries to gain insights into sales trends, supplier performance, inventory turnover, and more.
  
-## 🗂️ Dataset Structure
+## 🗂️ Dataset Information
 The database schema is designed following normalization principles to ensure data integrity and reduce redundancy. It consists of several interrelated tables that represent key entities involved in inventory management, including products, suppliers, categories, inventory transactions, and orders.
 Below is a high-level overview of the core tables:
 
@@ -65,6 +65,7 @@ To run this project locally:
    - Open `Inventory_management.sql`.
    - Execute the script to create the database, tables, and insert initial data.
 
+## 📁 Folder Structure
 ```bash
 Inventory_Management/
 │
