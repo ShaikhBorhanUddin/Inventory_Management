@@ -78,7 +78,7 @@ Inventory_Management/
 ```
 ## ❓ Analytic Questions
 
-The following business questions are answered (with Tableau visualization) using this project’s SQL queries:
+This project answers a wide range of business-critical questions using SQL queries and Tableau visualizations. These analytics are designed to empower decision-makers with actionable insights into sales performance, inventory movement, employee productivity, customer behavior, and operational efficiency.
 
 1. **What are the top 5 products with the highest total revenue, considering OrderItemQuantity and PerUnitPrice?**
 2. **Which customers have spent the most money, and what is their total spending? (Top 10 customers by total spending)**
