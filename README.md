@@ -212,10 +212,8 @@ This world map visualizes the total number of warehouses in each country, offeri
 
 ## ✅ Future Improvements
 
-- Add automated triggers for stock updates.
-- Integrate with a front-end dashboard for visualization.
-- Implement stored procedures for complex transactions.
-- Enhance reporting features (monthly stock report, supplier performance, etc.).
+To enhance the functionality and usability of the Inventory Management System, several future improvements are planned. These include implementing automated triggers to ensure real-time stock updates, which will improve inventory accuracy and operational efficiency. A front-end dashboard integration is also envisioned to provide interactive visualizations and easier access to key metrics for stakeholders. Additionally, incorporating stored procedures will help streamline complex transactions and enforce consistent business logic at the database level. Finally, expanding the system’s reporting capabilities—such as generating monthly stock summaries and evaluating supplier performance—will support deeper business insights and data-driven decision-making.
+
 ## 💡 Tools Used
 
 **`PostgreSQL`** **`Tableau`** **`Microsoft Excel`**
