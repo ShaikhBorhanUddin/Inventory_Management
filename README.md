@@ -28,20 +28,10 @@ The solution is built around structured datasets and SQL scripts that demonstrat
 - Inventory Transactions: Log all incoming (purchases) and outgoing (sales) inventory movements to maintain real-time stock levels.
 - Stock Alerts & Replenishment Insights: Identify products with low stock and suggest restocking based on predefined thresholds.
 - Comprehensive Queries: Execute analytical SQL queries to gain insights into sales trends, supplier performance, inventory turnover, and more.
-
-> **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/tree/main/Dataset)
-
-## 🗂️ Project Structure
-
-  This SQL script contains:
-  - Database creation
-  - Table definitions
-  - Data insertion
-  - Useful queries for inventory analysis
-
-## 📌 Features
-
-🗂️ Database Tables & Descriptions
+ 
+## 🗂️ Dataset Structure
+The database schema is designed following normalization principles to ensure data integrity and reduce redundancy. It consists of several interrelated tables that represent key entities involved in inventory management, including products, suppliers, categories, inventory transactions, and orders.
+Below is a high-level overview of the core tables:
 
 | Table Name        | Description |
 |-------------------|-------------|
@@ -53,28 +43,14 @@ The solution is built around structured datasets and SQL scripts that demonstrat
 | **Warehouse**     | Information about warehouse facilities, including warehouse name, address, and linked region. Important for logistics and stock distribution. |
 | **Employee**      | Records employee details such as name, email, phone, hire date, job title, and assigned warehouse. Useful for workforce management and warehouse operations. |
 
-
-- **Data Manipulation**  
-  Insert, update, and manage inventory records seamlessly.
-
-- **Analytical Queries**  
-  Retrieve insights such as:
-  - Stock availability
-  - Supplier details
-  - Inventory movements
-  - Product reorder levels
-  - Sales and order tracking
-
-- **Scalability Ready**  
-  The database schema is designed to be scalable for future enhancements and reporting.
 ## ER Diagram
-![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/ER_Diagram.png?raw=true)
-## 🛠️ Technologies Used
+The Entity-Relationship Diagram (ERD) visually represents the relationships between these tables, illustrating primary and foreign key constraints to ensure proper data flow and referential integrity.
 
-- **SQL**
-- **PostgreSQL** *(Recommended, but works with other RDBMS with minor adjustments)*
-- **Tableau**
-## 🚀 Getting Started
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/ER_Diagram.png?raw=true)
+
+The full dataset can be accessed in the **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/tree/main/Dataset)
+
+## 🛠️ Setup
 
 To run this project locally:
 
@@ -89,6 +65,15 @@ To run this project locally:
    - Open `Inventory_management.sql`.
    - Execute the script to create the database, tables, and insert initial data.
 
+```bash
+Inventory_Management/
+│
+├── Dataset/                         # Contains raw CSV files
+├── Images/                          # Tableau Visualization
+├── queries/                      # SQL scripts for business insights and reporting
+├── analysis/                     # Excel or notebook files for additional data analysis
+└── README.md                     # Project documentation
+```
 ## ❓ Query Questions
 
 The following business questions are answered (with Tableau visualization) using this project’s SQL queries:
