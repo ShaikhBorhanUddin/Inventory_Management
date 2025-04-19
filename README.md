@@ -76,7 +76,7 @@ Inventory_Management/
 ├── README.md                                   # Overvier of the project
 └── Solutions.md                                # Query solution documentation
 ```
-## ❓ Query Questions
+## ❓ Analytic Questions
 
 The following business questions are answered (with Tableau visualization) using this project’s SQL queries:
 
@@ -95,7 +95,7 @@ The following business questions are answered (with Tableau visualization) using
 13. **Which product category has generated the highest total revenue?**
 14. **Which warehouse has the highest total inventory cost (sum of ProductStandardCost for all stored products)?**
 15. **Which product has the highest total quantity sold?**
-
+Detailed solutions are documented in the Solutions.md file.
 ## 📊 Sample Queries
 
 - **Check current inventory levels:**
