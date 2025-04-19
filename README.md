@@ -167,6 +167,39 @@ ORDER BY TotalRevenue DESC;
 ```
 This query calculates the total revenue contributed by each state and country by aggregating order revenue (`OrderItemQuantity` * `PerUnitPrice`) and grouping it by geographical region. It joins the `Region`, `Warehouse`, `Employee`, `Orders`, and `OrderDetails` tables to trace the flow of transactions through regional warehouses and responsible employees. This analysis is crucial for understanding geographic performance, enabling businesses to identify high-revenue areas, allocate resources strategically, and make data-driven decisions about regional marketing, distribution, and expansion efforts.
 
+## Tableau Visualization
+Some visualizations drrived from sql queries involving employees, revenue and warwhouse are included here.
+
+## 👥 Employee Count by Warehouse and Country
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2017b.png?raw=true)
+
+This bar chart visualizes the number of employees assigned to warehouses across different countries. Each bar represents a country, and the length of the bar corresponds to the total number of employees in warehouses located within that country. This chart enables a quick comparison of workforce distribution, highlighting regions with high employee concentrations and identifying countries with relatively fewer resources. It’s an essential tool for understanding how workforce allocation aligns with operational needs, helping businesses optimize staffing strategies and ensure that warehouses are adequately supported in various regions.
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2017a.png?raw=true)
+
+The same information in world map visualization displays the number of employees assigned to warehouses across different countries. Here, each country is color-coded to represent the total employee count in its warehouses, with darker shades indicating higher numbers of employees. This map provides a global view of workforce distribution, enabling quick identification of regions with more or fewer resources. It is a valuable tool for understanding how employee allocation aligns with operational needs across different countries, helping businesses make data-driven decisions regarding workforce optimization, recruitment, and warehouse management in various regions.
+
+## 🧑‍💼 Employees Hired in the Last 10 Years
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2018a.png?raw=true)
+
+This visualization highlights the number of employees hired within the last 10 years, offering insights into workforce growth and hiring trends over time. It provides a clear breakdown of hiring activity by year, allowing businesses to identify periods of significant recruitment or potential staffing gaps. Analyzing this data helps organizations assess the effectiveness of their hiring strategies, align workforce planning with business growth, and forecast future recruitment needs. Understanding employee tenure also aids in identifying long-term trends and ensuring a balanced, skilled workforce moving forward.
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2018b.png?raw=true)
+
+This visualization provides a year-wise breakdown of employees hired over the past 10 years, illustrating recruitment trends and workforce expansion on a yearly basis. Each bar represents the total number of employees hired in a specific year, allowing for easy identification of hiring peaks or downturns. By analyzing this year-wise distribution, businesses can gain insights into their recruitment strategies, track workforce growth over time, and identify patterns in hiring that may correlate with business cycles or changes in operational demand. This data is essential for making informed decisions about future hiring and workforce management.
+
+## Visualization
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2021a.png?raw=true)
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2021b.png?raw=true)
+
+## Visualization
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2024b.png?raw=true)
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2024a.png?raw=true)
+
 ## 📊 Sample Queries
 
 - **Check current inventory levels:**
