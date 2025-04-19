@@ -95,7 +95,17 @@ The following business questions are answered (with Tableau visualization) using
 13. **Which product category has generated the highest total revenue?**
 14. **Which warehouse has the highest total inventory cost (sum of ProductStandardCost for all stored products)?**
 15. **Which product has the highest total quantity sold?**
-Detailed solutions are documented in the Solutions.md file.
+16. **Which orders were cancelled?**
+17. **List number of employees per Warehouse with Country Name.**
+18. **Which employees were hired in the Last 10 Years?**
+19. **Find Total Orders Fulfilled by Region**
+20. **Find Product Distribution by City**
+21. **Find Revenue Contribution by State and Country.**
+22. **Display Top Warehouses by Employee Count and Sales**
+23. **Show Employee Roster by Region.**
+24. **Display Warehouse Coverage by Country.**
+
+Detailed solutions and visualizations are documented in the [Solutions.md](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/solutions.md) file.
 ## 📊 Sample Queries
 
 - **Check current inventory levels:**
