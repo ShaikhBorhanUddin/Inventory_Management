@@ -1138,7 +1138,7 @@ WHERE EmployeeHireDate >= CURRENT_DATE - INTERVAL '10 year';
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2018b.png?raw=true)
 
-# Q19: find Total Orders Fulfilled by Region
+# Q19: Find Total Orders Fulfilled by Region
 ## Solution
 ```sql
 SELECT 
