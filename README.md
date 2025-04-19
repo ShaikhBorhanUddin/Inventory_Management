@@ -12,14 +12,22 @@
 ![Project Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=flat-square)
 ###
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/inventory.jpg?raw=true)
-This project explores the Brazilian E-Commerce Public Dataset by Olist using PostgreSQL. The goal is to build a relational database to manage and analyze inventory, sales, and customer data, and to provide actionable insights into the performance of products, sellers, and logistics. By leveraging the dataset, this project aims to:
-- Build a structured and scalable relational database schema for effective inventory management.
-- Conduct detailed analysis to track product stock levels, identify reorder points, and optimize inventory turnover.
-- Analyze sales trends to forecast demand, identify best-selling products, and improve stock planning.
-- Gain insights into customer behavior, such as product preferences and purchasing patterns.
-- Evaluate seller performance, logistics efficiency, and fulfillment timelines to enhance the supply chain process.
 
-The Inventory Management System will incorporate features such as product categorization, supplier management, order tracking, and inventory transactions. The analytical queries will help identify potential improvements in stock management, supplier relationships, and sales forecasting, ultimately enhancing operational efficiency.
+This project presents a full-scale Inventory Management System designed to provide businesses with a robust and efficient way to track products, manage stock levels, oversee suppliers, and monitor order movements. By leveraging SQL-based relational databases and data analysis tools, the system ensures data integrity, traceability, and performance insights crucial for inventory optimization.
+
+## 📌 Project Overview
+The goal of this project is to simulate the backend data management of a typical retail or wholesale inventory system. It focuses on building a scalable and normalized database schema that can handle complex relationships among products, suppliers, categories, and transactions. This system can serve as a foundation for more advanced inventory dashboards, analytics, and business intelligence tools.
+
+The solution is built around structured datasets and SQL scripts that demonstrate the design and querying capabilities essential for real-world inventory systems.
+
+✅ Key Features
+
+- Product Categorization: Classify products into organized categories for easier browsing and analysis.
+- Supplier Management: Store and manage supplier details including supplier-product relationships, contact info, and supply performance.
+- Order Tracking: Keep track of customer orders and supplier purchase orders across different statuses such as pending, shipped, and delivered.
+- Inventory Transactions: Log all incoming (purchases) and outgoing (sales) inventory movements to maintain real-time stock levels.
+- Stock Alerts & Replenishment Insights: Identify products with low stock and suggest restocking based on predefined thresholds.
+- Comprehensive Queries: Execute analytical SQL queries to gain insights into sales trends, supplier performance, inventory turnover, and more.
 
 > **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/tree/main/Dataset)
 
