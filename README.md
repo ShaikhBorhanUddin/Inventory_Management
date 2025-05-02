@@ -1,4 +1,4 @@
-# Inventory Management Project 📦
+# 📦 Inventory Management Project 
 <!-- Project Badges -->
 ![Made with](https://img.shields.io/badge/Made%20with-SQL-blue?logo=database)
 ![License](https://img.shields.io/github/license/ShaikhBorhanUddin/Inventory_Management_Project)
