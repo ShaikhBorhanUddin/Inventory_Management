@@ -111,7 +111,7 @@ Operationally, knowing which warehouses handle the most orders and which employe
 
 Analyzing profit margins allows businesses to pinpoint which products yield the highest returns, informing pricing strategies and product portfolio decisions. Similarly, understanding geographic revenue distribution at the city, state, and country levels enables smarter decisions about market expansion, localized promotions, and distribution strategies. Insights into employee distribution, hiring trends, and tenure further support human resources planning and operational scalability.
 
-Together, these analyses contribute to a holistic view of the business, allowing stakeholders to make informed, data-driven decisions and continuously optimize performance across departments. Detailed solutions and visualizations are documented in the [Solutions.md](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/solutions.md) file.
+Together, these analyses contribute to a holistic view of the business, allowing stakeholders to make informed, data-driven decisions and continuously optimize performance across departments. Detailed solutions and visualizations are documented in the [solutions.md](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/solutions.md) file.
 
 ## 🧠 Sample Queries
 SQL codes of some of these queries with explanations are included here.
