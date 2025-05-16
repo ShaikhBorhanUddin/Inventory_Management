@@ -296,7 +296,10 @@ LIMIT 5;
 |2468      |Sofia Burnett     |1          |
 |2396      |Jon Petersen      |1          |
 
-# Q11: Which employee has been working the longest (oldest hire date)?
+# Q11: Which employees has been working the longest (oldest hire date)?
+
+The question holds significant value in the context of business intelligence (BI) as it highlights employee tenure and organizational loyalty. Identifying long-serving employees helps companies recognize and reward experience, dedication, and institutional knowledge—qualities that can positively influence productivity, team morale, and customer satisfaction. From an HR and operational perspective, such insights support strategic decisions around succession planning, mentoring programs, and retaining critical human capital that contributes to the organization's stability and continuity.
+
 ## Solution
 ```SQL
 SELECT 
@@ -305,12 +308,28 @@ SELECT
     EmployeeHireDate
 FROM Employee
 ORDER BY EmployeeHireDate ASC
-LIMIT 1;
+LIMIT 10;
 ```
+This SQL query retrieves the top 10 employees who have been with the company the longest by selecting their `EmployeeID`, `EmployeeName`, and `EmployeeHireDate` from the `Employee` table. The `ORDER BY EmployeeHireDate ASC` clause sorts the employees in ascending order based on their hire date, meaning those hired earliest appear first. The `LIMIT 10` clause restricts the result to only the first 10 records, effectively listing the ten employees with the oldest hire dates—those who have the longest tenure within the organization.
+
 ## Output
-|employeeid|employeename   |employeehiredate|
-|----------|---------------|----------------|
-|6708      |Volk Colleen   |2000-05-15      |
+|employeeid|employeename    |employeehiredate|
+|----------|----------------|----------------|
+|6708      |Volk Colleen    |2000-05-15      |
+|6697      |Torrence Jack   |2006-01-09      |
+|6695      |Thibaud Kenneth |2007-06-25      |
+|6637      |Pitt Brad       |2007-11-05      |
+|6419      |AlagbeTrina     |2008-01-07      |
+|6706      |Villanueva Noah |2008-09-11      |
+|6445      |Brown Mia       |2008-10-27      |
+|6471      |Corleone Vito   |2009-01-05      |
+|6662      |Sadki Nore      |2009-01-05      |
+|6512      |FosterBaker Amy |2009-01-05      |
+
+The query result shows the ten employees with the longest tenure in the organization, based on their hire dates. At the top of the list is **Volk Colleen**, who has been with the company **since May 15, 2000**, making her the most senior employee. The rest of the employees on the list were hired **between 2006 and 2009**, indicating a core group of long-serving staff who have likely contributed significantly to organizational continuity and experience retention. This information can be useful for identifying experienced employees who may serve as mentors or be considered for leadership roles.
+
+## Visualization
+
 
 # Q12: Which product category has generated the highest total revenue?
 ## Solution
