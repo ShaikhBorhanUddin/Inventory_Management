@@ -169,6 +169,9 @@ LIMIT 1;
 |6309      |Summer Payne|400                 |
 
 # Q7: What is the average order value (AOV) for top 15 customers?
+
+Understanding the Average Order Value (AOV) of top customers is a crucial metric in Business Intelligence (BI) as it helps businesses evaluate customer spending behavior and purchasing patterns. A high AOV from specific customers can indicate strong buying intent, brand loyalty, or successful upselling strategies. By identifying and analyzing the top 15 customers with the highest AOV, companies can refine marketing efforts, design personalized loyalty programs, and optimize sales strategies to boost revenue. This metric also supports strategic decision-making around pricing, promotions, and customer segmentation.
+
 ## Solution
 ```SQL
 SELECT 
@@ -182,6 +185,8 @@ GROUP BY c.CustomerID, c.CustomerName
 ORDER BY AvgOrderValue DESC
 LIMIT 15;
 ```
+This SQL query calculates the **Average Order Value (AOV)** for each customer and retrieves the top 15 customers with the highest AOV. It joins three tables: `Orders`, `Customer`, and `OrderDetails`. The join connects customer IDs to their orders and links each order to its detailed items. The query computes the average value of all order items for each customer by multiplying the quantity of items ordered (`OrderItemQuantity`) with their unit price (`PerUnitPrice`) and applying the `AVG` function. The results are grouped by customer and sorted in descending order of AOV, returning the top 15 highest-spending customers by average transaction value.
+
 ## Output
 |customerid|customername        |avgordervalue         |
 |----------|--------------------|----------------------|
@@ -200,6 +205,8 @@ LIMIT 15;
 |2492      |Maud Cohen          |266909.180000000000   |
 |2378      |Elwood Hampton      |259421.630000000000   |
 |2529      |Kandi Holden        |254598.660000000000   |
+
+The output reveals the **top 15 customers with the highest Average Order Value (AOV)**, highlighting those who spend the most per transaction. Leading the list is **Shields Seffi**, with an exceptionally high AOV of **600,155**, followed closely by **Bill Stein** and **Daina Combs**, with AOVs of **550,487** and **389,855.70**, respectively. These figures indicate that these customers consistently make high-value purchases, making them critical to business revenue. Identifying such high-value customers allows businesses to implement targeted marketing, loyalty programs, or personalized services to further boost retention and maximize revenue from this profitable segment.
 
 ## Visualization
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%207mod.png?raw=true)
