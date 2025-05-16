@@ -1,8 +1,8 @@
 # Q1: What are the top 5 products with the highest total revenue, considering OrderItemQuantity and PerUnitPrice?
-## Solution
 
 The analytic question is crucial in the context of Business Intelligence (BI) because it enables data-driven decision-making related to product performance and profitability. By identifying which products contribute the most to overall revenue, businesses can prioritize inventory, optimize supply chain management, and tailor marketing strategies to promote high-performing items. This insight helps executives and managers allocate resources efficiently, forecast demand more accurately, and drive revenue growth by focusing on the most profitable product lines. In BI, such targeted analysis transforms raw transactional data into actionable business insights.
 
+## Solution
 ```SQL
 SELECT 
     p.ProductID, 
