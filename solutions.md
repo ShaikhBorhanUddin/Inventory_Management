@@ -243,13 +243,23 @@ SELECT
 FROM Orders o
 JOIN OrderDetails od ON o.OrderID = od.OrderID
 GROUP BY DayOfWeek
-ORDER BY TotalRevenue DESC
-LIMIT 1;
+ORDER BY TotalRevenue DESC;
 ```
 ## Output
 |dayofweek|totalrevenue|
 |---------|------------|
 |Tuesday  |7816402.08  |
+|Wednesday|5156222.01  |
+|Friday   |4916067.86  |
+|Thursday |4250796.84  |
+|Monday   |3351974.22  |
+|Sunday   |2619526.99  |
+|Saturday |2409100.71  |
+
+The data shows that **Tuesday** generates the highest total revenue, reaching approximately **$7.82 million**, followed by **Wednesday** with about **$5.16 million** and **Friday** with around **$4.92 million**. The midweek days (Tuesday to Friday) generally see stronger sales compared to the weekend, where **Sunday** and **Saturday** report the lowest revenues of approximately **$2.62 million** and **$2.41 million** respectively. This pattern suggests that customer purchasing activity peaks during weekdays, especially early to midweek, which could inform staffing and promotional strategies.
+
+## Visualization
+
 
 # Q10: Which customers has placed the highest number of orders?
 ## Solution
