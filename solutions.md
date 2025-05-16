@@ -235,6 +235,9 @@ This SQL query identifies the **product with the highest profit margin percentag
 The result shows that the product **Hynix (H15201504-8) Genuine DDR2 2 GB** has the **highest profit margin percentage of 66.89%** among all products in the dataset. This means that for every dollar spent on the standard cost of this product, the company earns approximately **$0.67** in profit. A high profit margin like this indicates the product is either priced significantly above its cost or produced at a very low cost while still maintaining a strong market price. This insight is valuable in business intelligence for **prioritizing profitable items in marketing, inventory, and sales strategies**.
 
 # Q9: Which day of the week has the highest total sales revenue?
+
+Understanding which day of the week generates the highest total sales revenue is crucial for businesses to optimize operations, marketing, and resource allocation. By identifying peak sales days, companies can better manage inventory, schedule staff, and plan targeted promotions to maximize revenue. This analysis helps in recognizing customer purchasing patterns and behavioral trends, enabling data-driven decisions to enhance profitability and improve overall business efficiency.
+
 ## Solution
 ```SQL
 SELECT 
@@ -245,6 +248,8 @@ JOIN OrderDetails od ON o.OrderID = od.OrderID
 GROUP BY DayOfWeek
 ORDER BY TotalRevenue DESC;
 ```
+This query calculates the total sales revenue for each day of the week by aggregating the revenue generated from all orders. It first converts the `OrderDate` into the day of the week name using the `TO_CHAR` function, labeling it as `DayOfWeek`. Then, it joins the `Orders` table with `OrderDetails` to access the quantity and price of each order item. For each day, it sums the product of `OrderItemQuantity` and `PerUnitPrice` to compute the total revenue. The results are grouped by day of the week and ordered in descending order of total revenue, helping identify which day generates the highest sales.
+
 ## Output
 |dayofweek|totalrevenue|
 |---------|------------|
@@ -259,6 +264,9 @@ ORDER BY TotalRevenue DESC;
 The data shows that **Tuesday** generates the highest total revenue, reaching approximately **$7.82 million**, followed by **Wednesday** with about **$5.16 million** and **Friday** with around **$4.92 million**. The midweek days (Tuesday to Friday) generally see stronger sales compared to the weekend, where **Sunday** and **Saturday** report the lowest revenues of approximately **$2.62 million** and **$2.41 million** respectively. This pattern suggests that customer purchasing activity peaks during weekdays, especially early to midweek, which could inform staffing and promotional strategies.
 
 ## Visualization
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%209a.png?raw=true)
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%209b.png?raw=true)
 
 
 # Q10: Which customers has placed the highest number of orders?
