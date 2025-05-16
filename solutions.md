@@ -212,6 +212,9 @@ The output reveals the **top 15 customers with the highest Average Order Value (
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%207mod.png?raw=true)
 
 # Q8: Which product has the highest profit margin, and what is the margin percentage?
+
+Understanding which product has the **highest profit margin** is essential in business intelligence because it directly informs profitability strategies. While total revenue shows which products sell the most, profit margin reveals which ones **yield the highest return per sale**. Identifying high-margin products helps businesses **prioritize marketing**, **inventory**, and **resource allocation** toward items that drive the most profit relative to cost. This insight supports strategic decision-making around product pricing, promotion, and portfolio optimization, ultimately enhancing overall financial performance and long-term growth.
+
 ## Solution
 ```SQL
 SELECT 
@@ -222,10 +225,14 @@ FROM Product
 ORDER BY ProfitMarginPercentage DESC
 LIMIT 1;
 ```
+This SQL query identifies the **product with the highest profit margin percentage**. It selects the `ProductID`, `ProductName`, and calculates the profit margin as a percentage by dividing the `Profit` by the `ProductStandardCost` and multiplying the result by 100. The `ROUND` function is used to round the margin percentage to two decimal places for better readability. The `ORDER BY` clause sorts the products in descending order based on their calculated `ProfitMarginPercentage`, and the `LIMIT 1` ensures that only the top product with the **highest margin** is returned. This analysis helps determine which product yields the **most efficient** profit relative to its cost.
+
 ## Output
 |productid|productname                          |profitmarginpercentage|
 |---------|-------------------------------------|----------------------|
 |P291     |Hynix (H15201504-8) Genuine DDR2 2 GB|66.89                 |
+
+The result shows that the product **Hynix (H15201504-8) Genuine DDR2 2 GB** has the **highest profit margin percentage of 66.89%** among all products in the dataset. This means that for every dollar spent on the standard cost of this product, the company earns approximately **$0.67** in profit. A high profit margin like this indicates the product is either priced significantly above its cost or produced at a very low cost while still maintaining a strong market price. This insight is valuable in business intelligence for **prioritizing profitable items in marketing, inventory, and sales strategies**.
 
 # Q9: Which day of the week has the highest total sales revenue?
 ## Solution
