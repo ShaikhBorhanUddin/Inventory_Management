@@ -703,6 +703,9 @@ The query reveals that the United States of America has the highest number of em
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2017a.png?raw=true)
 
 # Q18: Which employees were hired in the Last 10 Years?
+
+Identifying employees hired in the last 10 years is crucial for understanding workforce trends, recent recruitment efforts, and organizational growth. It helps highlight how much of the current workforce consists of newer hires versus long-standing staff, offering insights into employee turnover, succession planning, and talent acquisition strategies. This information is particularly valuable for HR and management teams to assess hiring effectiveness, plan training programs, and ensure that the organization is maintaining a healthy balance between experienced and new talent.
+
 ## Solution
 ```sql
 SELECT 
@@ -715,6 +718,8 @@ FROM Employee e
 JOIN Warehouse w ON e.WarehouseID = w.WarehouseID
 WHERE EmployeeHireDate >= CURRENT_DATE - INTERVAL '10 year';
 ```
+This SQL query retrieves information about employees who were hired within the last 10 years. It selects the `EmployeeID`, `EmployeeName`, `EmployeeJobTitle`, `EmployeeHireDate`, and the `WarehouseName` where each employee is assigned. The query joins the `Employee` table with the `Warehouse` table using the `WarehouseID` to associate each employee with their respective warehouse. The `WHERE` clause filters the results to include only those employees whose hire date is within the last 10 years from the current date, using the `CURRENT_DATE - INTERVAL '10 year'` condition. This helps in analyzing recent hiring patterns and identifying newly added staff across different warehouse locations.
+
 ## Output
 |employeeid|employeename        |employeejobtitle               |employeehiredate|warehousename     |
 |----------|--------------------|-------------------------------|----------------|------------------|
@@ -849,6 +854,8 @@ WHERE EmployeeHireDate >= CURRENT_DATE - INTERVAL '10 year';
 |6670      |Singh Nan           |Sales Representative           |2015-05-01      |Bombay            |
 |6677      |Soze Keyser         |Sales Representative           |2016-06-30      |Bombay            |
 |6690      |Tannen Biff         |Sales Representative           |2017-04-20      |Bombay            |
+
+The employee dataset showcases a diverse workforce distributed across multiple warehouse locations such as Southlake Texas, San Francisco, New Jersey, Seattle Washington, Toronto, Sydney, Mexico City, and Beijing. Most employees were hired in 2016 and span a wide range of job titles including Sales Representatives, Stock Clerks, Programmers, Accountants, Managers, and Clerks across departments like Sales, Shipping, Purchasing, and Human Resources. Southlake Texas has the highest concentration of employees, particularly in administrative, finance, and sales roles, while other warehouses have specialized roles aligned with local operational needs. Countrywise employee count visualizations aew shown in the following graphs.
 
 ## Visualization
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2018a.png?raw=true)
