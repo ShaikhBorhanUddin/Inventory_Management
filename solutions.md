@@ -1795,6 +1795,9 @@ JOIN Region r ON w.RegionID = r.RegionID;
 |6708      |Volk Colleen          |Stock Manager                  |Bombay            |Bombay             |Maharashtra     |India                   |
 
 # Q24: Display Warehouse Coverage by Country.
+
+Understanding warehouse coverage by country is crucial for evaluating the geographic distribution and logistical efficiency of a company's supply chain. By identifying how many warehouses operate in each country, businesses can assess their ability to meet regional demand, reduce delivery times, and optimize inventory management. This insight also helps in strategic planning for expansion, identifying underserved regions, and ensuring balanced resource allocation across key markets, ultimately supporting better customer service and operational performance.
+
 ## Solution
 ```sql
 SELECT 
@@ -1804,6 +1807,8 @@ FROM Region r
 JOIN Warehouse w ON r.RegionID = w.RegionID
 GROUP BY r.CountryName;
 ```
+This SQL query calculates the number of distinct warehouses operating in each country. It begins by selecting data from the `Region` table (aliased as `r`) and joins it with the `Warehouse` table (aliased as `w`) using the `RegionID` key, ensuring that each warehouse is correctly associated with its region and corresponding country. The query then uses `COUNT(DISTINCT w.WarehouseID)` to count the unique warehouses within each country, grouped by `CountryName`. The result is a summary table showing how many warehouses are present in each country, helping to analyze warehouse distribution across geographic locations.
+
 ## Output
 |countryname             |numberofwarehouses|
 |------------------------|------------------|
@@ -1813,6 +1818,8 @@ GROUP BY r.CountryName;
 |India                   |43                |
 |Mexico                  |45                |
 |United States of America|178               |
+
+The summary of warehouse coverage by country reveals that the United States has the highest number of warehouses, totaling 178, indicating a strong and widespread logistics network. Other countries like Australia, China, and Mexico each have 45 warehouses, showing balanced warehouse distribution in those regions. Canada follows closely with 44, while India has 43 warehouses, the lowest among the listed countries. This data highlights the geographic spread and infrastructure strength of the warehouse network across key international markets.
 
 ## Visualization
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2024b.png?raw=true)
