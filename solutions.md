@@ -330,6 +330,7 @@ The query result shows the ten employees with the longest tenure in the organiza
 
 ## Visualization
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Shhet%2011.png?raw=true)
 
 # Q12: Which product category has generated the highest total revenue?
 ## Solution
