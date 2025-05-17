@@ -408,6 +408,7 @@ The analysis reveals the top 10 products based on total quantity sold, along wit
 
 ## Visualization
 
+![Dashboard](
 
 
 # Q15: List all Canceled orders.
