@@ -408,8 +408,7 @@ The analysis reveals the top 10 products based on total quantity sold, along wit
 
 ## Visualization
 
-![Dashboard](
-
+![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2014.png?raw=true)
 
 # Q15: List all Canceled orders.
 ## Solution
