@@ -49,12 +49,7 @@ The Entity-Relationship Diagram (ERD) visually represents the relationships betw
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/ER_Diagram.png?raw=true)
 
-The database schema is composed of two distinct entity clusters, which are not entirely coneected. Sales/transaction cluster involves customer purchase, products and orders. Operations/HR cluster covers warehouse, employees and regional information. There are no links between product/orders with warehouse, which means it is not possible to trace
-- Where a product is stored
-- Which warehouse fulfilled an order
-- Which employy handled an order
-
-Altering `product` table or linking with `warehouse` by foreign key without real data will violate data integrity which would be analytically dishonest.
+The ER diagram (figure above) illustrates a relational database schema composed of two separate clusters: the Sales/Transaction cluster and the Operations/HR cluster, which operate independently without any direct links between them. The Sales/Transaction cluster includes tables such as `customer`, `orders`, `orderdetails`, and `product`, capturing customer profiles, order transactions, product listings, and sales data. The Operations/HR cluster consists of `region`, `warehouse`, and `employee` tables, which provide information about geographic regions, warehouse infrastructure, and employee assignments. However, there are no foreign key relationships connecting these two clusters. Consequently, the database lacks the ability to answer key operational questions such as: where a product is stored, which warehouse fulfilled a specific order, or which employee was responsible for processing or managing it. While it might be tempting to modify the schema—for example, by linking the product table to the warehouse table or the orders table to employee—doing so without actual transactional or inventory data would violate data integrity principles and introduce analytically dishonest assumptions. Maintaining the current separation ensures accuracy and transparency in analysis, even if it limits certain operational insights.
 
 ## 🛠️ Setup
 
@@ -109,55 +104,54 @@ Together, these analyses contribute to a holistic view of the business, allowing
 SQL codes of some of these queries with explanations are included here.
 ```sql
 SELECT 
+    TO_CHAR(o.OrderDate, 'YYYY-MM') AS OrderMonth, 
+    SUM(od.OrderItemQuantity * od.PerUnitPrice) AS TotalRevenue
+FROM Orders o
+JOIN OrderDetails od ON o.OrderID = od.OrderID
+GROUP BY OrderMonth
+ORDER BY TotalRevenue DESC
+LIMIT 1;
+```
+This SQL query identifies the month with the highest total sales revenue. It joins the `Orders` table with the `OrderDetails` table using the `OrderID` key to access detailed order information. The `OrderDate` is formatted as `'YYYY-MM'` using the `TO_CHAR` function to group revenue data by month. For each month, it calculates total revenue by multiplying the quantity of items ordered (`OrderItemQuantity`) by the unit price (`PerUnitPrice`) and summing these values. The query groups results by OrderMonth, orders them in descending order of revenue, and uses LIMIT 1 to return only the month with the highest revenue.
+
+```sql
+SELECT 
     c.CustomerID, 
     c.CustomerName, 
-    SUM(od.OrderItemQuantity * od.PerUnitPrice) AS TotalSpending
+    AVG(od.OrderItemQuantity * od.PerUnitPrice) AS AvgOrderValue
 FROM Orders o
 JOIN Customer c ON o.CustomerID = c.CustomerID
 JOIN OrderDetails od ON o.OrderID = od.OrderID
 GROUP BY c.CustomerID, c.CustomerName
-ORDER BY TotalSpending DESC
-LIMIT 10;
+ORDER BY AvgOrderValue DESC
+LIMIT 15;
 ```
-This query identifies the top 10 customers by total spending, which is crucial for business analytics as it highlights the most valuable clients driving revenue. Understanding who spends the most helps businesses prioritize customer retention, tailor marketing efforts, and allocate resources effectively to maximize profitability and customer lifetime value. The SQL query joins the `Orders`, `Customer`, and `OrderDetails` tables to calculate total spending per customer by multiplying the quantity of each item (`OrderItemQuantity`) by its unit price (`PerUnitPrice`). It then groups the results by customer ID and name, aggregates the spending using SUM(), and orders the output in descending order to identify the top 10 highest-spending customers. This approach ensures accurate revenue attribution per customer and is efficient for pinpointing key contributors to overall sales.
+This SQL query calculates the Average Order Value (AOV) for each customer and retrieves the top 15 customers with the highest AOV. It joins three tables: `Orders`, `Customer`, and `OrderDetails`. The join connects customer IDs to their orders and links each order to its detailed items. The query computes the average value of all order items for each customer by multiplying the quantity of items ordered (`OrderItemQuantity`) with their unit price (`PerUnitPrice`) and applying the `AVG` function. The results are grouped by customer and sorted in descending order of AOV, returning the top 15 highest-spending customers by average transaction value.
+
 ```sql
 SELECT 
-    w.WarehouseID, 
-    w.WarehouseName, 
-    SUM(od.OrderItemQuantity) AS TotalOrderQuantity
-FROM OrderDetails od
-JOIN Product p ON od.ProductID = p.ProductID
-JOIN Warehouse w ON p.ProductID = p.ProductID
-GROUP BY w.WarehouseID, w.WarehouseName
-ORDER BY TotalOrderQuantity DESC
-LIMIT 1;
-```
-This query determines which warehouse has handled the highest total order quantity by joining `OrderDetails` with `Product` and `Warehouse`, then aggregating the total quantity of items ordered (`OrderItemQuantity`) per warehouse. It uses SUM() to compute total quantities, groups by warehouse, and sorts the result in descending order to return the top performer. This query is important for business analytics because it helps identify the most active warehouse, offering insights into operational load, resource utilization, and logistical efficiency, which are essential for inventory planning, workforce allocation, and scaling distribution capabilities.
-```sql
-SELECT 
-    p.CategoryName, 
+    TO_CHAR(OrderDate, 'Day') AS DayOfWeek, 
     SUM(od.OrderItemQuantity * od.PerUnitPrice) AS TotalRevenue
-FROM OrderDetails od
-JOIN Product p ON od.ProductID = p.ProductID
-GROUP BY p.CategoryName
-ORDER BY TotalRevenue DESC
-LIMIT 1;
-```
-This query calculates the total revenue generated by each product category by joining `OrderDetails` with `Product` and multiplying the quantity ordered by the unit price. It then groups the data by category, sums the revenue, and returns the category with the highest total. This analysis is vital for business intelligence as it reveals which product category is the most profitable, helping businesses focus their marketing, inventory stocking, and product development strategies on high-performing segments to maximize revenue and market share.
-```sql
-SELECT 
-    r.CountryName,
-    r.State,
-    SUM(od.OrderItemQuantity * od.PerUnitPrice) AS TotalRevenue
-FROM Region r
-JOIN Warehouse w ON r.RegionID = w.RegionID
-JOIN Employee e ON w.WarehouseID = e.WarehouseID
-JOIN Orders o ON o.CustomerID IS NOT NULL
+FROM Orders o
 JOIN OrderDetails od ON o.OrderID = od.OrderID
-GROUP BY r.CountryName, r.State
+GROUP BY DayOfWeek
 ORDER BY TotalRevenue DESC;
 ```
-This query calculates the total revenue contributed by each state and country by aggregating order revenue (`OrderItemQuantity` * `PerUnitPrice`) and grouping it by geographical region. It joins the `Region`, `Warehouse`, `Employee`, `Orders`, and `OrderDetails` tables to trace the flow of transactions through regional warehouses and responsible employees. This analysis is crucial for understanding geographic performance, enabling businesses to identify high-revenue areas, allocate resources strategically, and make data-driven decisions about regional marketing, distribution, and expansion efforts.
+This query calculates the total sales revenue for each day of the week by aggregating the revenue generated from all orders. It first converts the `OrderDate` into the day of the week name using the `TO_CHAR` function, labeling it as `DayOfWeek`. Then, it joins the `Orders` table with `OrderDetails` to access the quantity and price of each order item. For each day, it sums the product of `OrderItemQuantity` and `PerUnitPrice` to compute the total revenue. The results are grouped by day of the week and ordered in descending order of total revenue, helping identify which day generates the highest sales.
+
+```sql
+SELECT 
+    p.ProductID, 
+    p.ProductName, 
+    SUM(od.OrderItemQuantity) AS TotalQuantitySold,
+    SUM(od.OrderItemQuantity * p.Profit) AS TotalProfit
+FROM OrderDetails od
+JOIN Product p ON od.ProductID = p.ProductID
+GROUP BY p.ProductID, p.ProductName
+ORDER BY TotalQuantitySold DESC
+LIMIT 10;
+```
+This SQL query retrieves the top 10 products based on the total quantity sold, along with the total profit generated from those sales. It joins the `OrderDetails` table with the `Product` table using the `ProductID` to match each order item to its product details. The `SUM(od.OrderItemQuantity)` calculates the total number of units sold for each product, while `SUM(od.OrderItemQuantity * p.Profit)` computes the total profit by multiplying the number of units sold with the per-unit profit of each product. The results are grouped by product ID and name to aggregate values per product, then sorted in descending order of quantity sold, and finally, only the top 10 records are displayed. This helps in identifying the most sold and most profitable products.
 
 ## Tableau Visualization
 Some visualizations drrived from sql queries involving employees, revenue and warwhouse are included here.
