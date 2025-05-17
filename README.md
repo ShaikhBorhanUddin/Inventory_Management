@@ -13,7 +13,7 @@
 ###
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/inventory.jpg?raw=true)
 
-This project presents a full-scale Inventory Management System designed to provide businesses with a robust and efficient way to track products, manage stock levels, oversee suppliers, and monitor order movements. By leveraging SQL-based relational databases and data analysis tools, the system ensures data integrity, traceability, and performance insights crucial for inventory optimization.
+This project analyzes an **Inventory Management System** designed to provide businesses with a robust and efficient way to track products, manage stock levels, oversee suppliers, and monitor order movements. By leveraging SQL-based relational databases and data analysis tools, the system ensures data integrity, traceability, and performance insights crucial for inventory optimization.
 
 ## 📌 Project Overview
 The goal of this project is to simulate the backend data management of a typical retail or wholesale inventory system. It focuses on building a scalable and normalized database schema that can handle complex relationships among products, suppliers, categories, and transactions. This system can serve as a foundation for more advanced inventory dashboards, analytics, and business intelligence tools.
