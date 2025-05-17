@@ -91,32 +91,17 @@ This project answers a wide range of business-critical questions using SQL queri
 2. **Which customers have spent the most money, and what is their total spending? (Top 10 customers by total spending)**
 3. **Which product category generates the top 3 highest total revenue?**
 4. **Which month had the highest total sales revenue?**
-5. **Which warehouse has handled the highest total order quantity?**
-6. **Which employee has processed the highest number of orders?**
-7. **What is the average order value (AOV) per customer?**
-8. **Which region generates the highest total revenue?**
-9. **Which product has the highest profit margin, and what is the margin percentage?**
-10. **Which day of the week has the highest total sales revenue?**
-11. **Which customers has placed the highest number of orders?**
-12. **Which employee has been working the longest (oldest hire date)?**
-13. **Which product category has generated the highest total revenue?**
-14. **Which warehouse has the highest total inventory cost (sum of ProductStandardCost for all stored products)?**
-15. **Which product has the highest total quantity sold?**
-16. **Which orders were cancelled?**
-17. **List number of employees per Warehouse with Country Name.**
-18. **Which employees were hired in the Last 10 Years?**
-19. **Find Total Orders Fulfilled by Region**
-20. **Find Product Distribution by City**
-21. **Find Revenue Contribution by State and Country.**
-22. **Display Top Warehouses by Employee Count and Sales**
-23. **Show Employee Roster by Region.**
-24. **Display Warehouse Coverage by Country.**
+5. **What is the average order value (AOV) for top 15 customers?**
+6. **Which product has the highest profit margin, and what is the margin percentage?**
+7. **Which day of the week has the highest total sales revenue?**
+8. **Which employee has been working the longest (oldest hire date)?**
+9. **Which product has the highest total quantity sold and how much profit is generated?**
+10. **Show employee distribution among countries.**
+11. **Which employees were hired in the Last 10 Years?**
+12. **Find Revenue Contribution by State and Country.**
+13. **Display Warehouse Coverage by Country.**
 
-Understanding and analyzing these questions is essential for transforming raw data into meaningful business intelligence. For example, identifying the top-performing products, categories, and regions helps organizations focus on areas that generate the most revenue and profit. By analyzing customer spending habits and order frequency, businesses can design more effective marketing strategies, improve customer retention, and tailor offerings to meet customer needs.
-
-Operationally, knowing which warehouses handle the most orders and which employees process the highest volume provides clarity into the performance of supply chain and fulfillment operations. This supports better resource allocation, helps manage workloads, and highlights areas where process improvements may be needed. Time-based trends, such as revenue fluctuations by month or day of the week, reveal seasonality and customer behavior patterns, which are crucial for inventory planning and promotional campaigns.
-
-Analyzing profit margins allows businesses to pinpoint which products yield the highest returns, informing pricing strategies and product portfolio decisions. Similarly, understanding geographic revenue distribution at the city, state, and country levels enables smarter decisions about market expansion, localized promotions, and distribution strategies. Insights into employee distribution, hiring trends, and tenure further support human resources planning and operational scalability.
+Understanding and analyzing these questions is essential for transforming raw data into meaningful business intelligence. These 13 business analytics questions, while shaped by the limitations of the available dataset, are crucial for gaining actionable insights across key operational areas—sales, customer behavior, product performance, employee data, and geographic distribution. They help businesses identify top-performing products, high-value customers, and revenue-driving categories, which are vital for strategic product placement and marketing. Questions on average order value, profit margins, and time-based sales trends offer guidance for pricing strategies and demand forecasting. Employee-related insights support HR planning and regional workforce analysis, while geographical revenue and warehouse data assist in optimizing logistics, supply chains, and expansion decisions. Despite potential gaps in data completeness or granularity, these questions align closely with core metrics that drive informed decision-making and competitive advantage.
 
 Together, these analyses contribute to a holistic view of the business, allowing stakeholders to make informed, data-driven decisions and continuously optimize performance across departments. Detailed solutions and visualizations are documented in the [solutions.md](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/solutions.md) file.
 
