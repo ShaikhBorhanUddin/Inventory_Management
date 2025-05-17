@@ -30,7 +30,8 @@ The solution is built around structured datasets and SQL scripts that demonstrat
 - Comprehensive Queries: Execute analytical SQL queries to gain insights into sales trends, supplier performance, inventory turnover, and more.
  
 ## 🗂️ Dataset Information
-The database schema is designed following normalization principles to ensure data integrity and reduce redundancy. It consists of several interrelated tables that represent key entities involved in inventory management, including products, suppliers, categories, inventory transactions, and orders.
+
+The raw csv files of the dataset can be accessed in the **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/tree/main/Dataset). The database schema is designed following normalization principles to ensure data integrity and reduce redundancy. It consists of several interrelated tables that represent key entities involved in inventory management, including products, suppliers, categories, inventory transactions, and orders.
 Below is a high-level overview of the core tables:
 
 | Table Name        | Description |
@@ -48,7 +49,12 @@ The Entity-Relationship Diagram (ERD) visually represents the relationships betw
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/blob/main/Images/ER_Diagram.png?raw=true)
 
-The full dataset can be accessed in the **Repository:** [Inventory Management Project](https://github.com/ShaikhBorhanUddin/Inventory_Management_Project/tree/main/Dataset)
+The database schema is composed of two distinct entity clusters, which are not entirely coneected. Sales/transaction cluster involves customer purchase, products and orders. Operations/HR cluster covers warehouse, employees and regional information. There are no links between product/orders with warehouse, which means it is not possible to trace
+- Where a product is stored
+- Which warehouse fulfilled an order
+- Which employy handled an order
+
+Altering `product` table or linking with `warehouse` by foreign key without real data will violate data integrity which would be analytically dishonest.
 
 ## 🛠️ Setup
 
@@ -59,11 +65,12 @@ To run this project locally:
    git clone https://github.com/ShaikhBorhanUddin/Inventory_Management_Project.git
    ```
 
-2. **Open your SQL environment (e.g., pgAdmin, DBeaver, or terminal).**
+2. **Open SQL environment (e.g., postgreSQL, MySQL Workbench, or terminal).**
 
 3. **Run the SQL script**
-   - Open `Inventory_management.sql`.
-   - Execute the script to create the database, tables, and insert initial data.
+   - Open `Inventory_management_updated.sql`.
+   - Execute the script to create the database, tables, and run queries.
+   - From query results, it is possible to generate graphs in PowerBI or Tableau
 
 ## 📁 Folder Structure
 ```bash
@@ -78,7 +85,7 @@ Inventory_Management/
 ```
 ## ❓ Analytic Questions
 
-This project answers a wide range of business-critical questions using SQL queries and Tableau visualizations. These analytics are designed to empower decision-makers with actionable insights into sales performance, inventory movement, employee productivity, customer behavior, and operational efficiency.
+This project answers a wide range of business-critical questions using SQL queries and Tableau visualizations. Considering the limitations of the dataset (no link beween sales and HR data), these analytics are designed to empower decision-makers with actionable insights into sales, customer behavior, and operational efficiency. The questions are given below
 
 1. **What are the top 5 products with the highest total revenue, considering OrderItemQuantity and PerUnitPrice?**
 2. **Which customers have spent the most money, and what is their total spending? (Top 10 customers by total spending)**
