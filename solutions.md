@@ -371,23 +371,44 @@ LIMIT 1;
 |-----------|------------------|------------------|
 |101        |Southlake Texas   |725061.81         |
 
-# Q14: Which product has the highest total quantity sold?
+# Q14: Which product has the highest total quantity sold and how much profit is generated?
+
+This question is crucial in Business Intelligence as it identifies the best-selling product by volume and evaluates the profit it brings to the business. While high sales volume often signals product popularity or market demand, it doesn't always equate to profitability. By also calculating the total profit, decision-makers can determine whether the product's success in quantity sold aligns with its contribution to financial performance. This insight helps optimize product strategies, such as inventory stocking, marketing focus, and pricing models, ensuring that top-selling items are also financially viable.
+
 ## Solution
 ```SQL
 SELECT 
     p.ProductID, 
     p.ProductName, 
-    SUM(od.OrderItemQuantity) AS TotalQuantitySold
+    SUM(od.OrderItemQuantity) AS TotalQuantitySold,
+    SUM(od.OrderItemQuantity * p.Profit) AS TotalProfit
 FROM OrderDetails od
 JOIN Product p ON od.ProductID = p.ProductID
 GROUP BY p.ProductID, p.ProductName
 ORDER BY TotalQuantitySold DESC
-LIMIT 1;
+LIMIT 10;
 ```
+This SQL query retrieves the top 10 products based on the total quantity sold, along with the total profit generated from those sales. It joins the `OrderDetails` table with the `Product` table using the `ProductID` to match each order item to its product details. The `SUM(od.OrderItemQuantity)` calculates the total number of units sold for each product, while `SUM(od.OrderItemQuantity * p.Profit)` computes the total profit by multiplying the number of units sold with the per-unit profit of each product. The results are grouped by product ID and name to aggregate values per product, then sorted in descending order of quantity sold, and finally, only the top 10 records are displayed. This helps in identifying the most sold and most profitable products.
+
 ## Output
-|productid|productname           |totalquantitysold|
-|---------|----------------------|-----------------|
-|P399     |Zotac ZT-P10810A-10P  |157              |
+|productid|productname                                     |totalquantitysold|totalprofit|
+|---------|------------------------------------------------|-----------------|-----------|
+|P399     |Zotac ZT-P10810A-10P                            |157              |23179.48   |
+|P316     |Zion ZHY16004096 4 GB Ddr3                      |150              |22500.00   |
+|P060     |Intel Xeon E5-2630 V4                           |150              |17856.00   |
+|P307     |G.Skill RipjawsX (F3-1600C9Q-32GXM) DDR3 32 GB  |149              |412730.00  |
+|P306     |G.Skill TridentX (F3-2400C10D-8GTX) DDR3 8GB    |149              |292338.00  |
+|P017     |Intel Xeon E5-2470V2                            |149              |34679.75   |
+|P263     |Hitachi A7K1000-1000                            |148              |0.00       |
+|P006     |Intel Xeon E5-2695 V3 (OEM/Tray)                |148              |75009.36   |
+|P023     |Intel Xeon E5-1680 V3 (OEM/Tray)                |148              |34356.72   |
+|P391     |AMD FirePro S7000                               |147              |41465.76   |
+
+The analysis reveals the top 10 products based on total quantity sold, along with the profit each generated. The **Zotac ZT-P10810A-10P** tops the list with **157 units sold** and a total profit of **23,179.48**. This is followed closely by **Zion ZHY16004096 4 GB DDR3** and **Intel Xeon E5-2630 V4**, each selling **150 units** with profits of **22,500.00** and **17,856.00** respectively. Notably, **G.Skill RipjawsX** and **TridentX** both sold **149 units** but generated significantly higher profits, exceeding **290,000**, indicating a higher profit margin per unit. Interestingly, one product, **Hitachi A7K1000-1000**, had high sales but recorded **zero profit**, possibly due to pricing strategy or cost factors. This summary highlights not just popularity in sales but also the varying profitability across products.
+
+## Visualization
+
+
 
 # Q15: List all Canceled orders.
 ## Solution
