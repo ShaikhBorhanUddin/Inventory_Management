@@ -1306,6 +1306,9 @@ GROUP BY r.City;
 |Toronto            |400                      |
 
 # Q21: Find Revenue Contribution by State and Country.
+
+Analyzing the revenue contribution by state and country is significant as it helps identify which geographic regions are driving the most business income, enabling strategic decision-making in marketing, resource allocation, and expansion planning. By understanding which states and countries contribute the highest revenue, the company can prioritize high-performing markets, address underperforming areas, and tailor its operations to regional demand. This insight also supports budgeting, sales forecasting, and helps optimize supply chain and distribution strategies for maximum profitability.
+
 ## Solution
 ```sql
 SELECT 
@@ -1320,6 +1323,8 @@ JOIN OrderDetails od ON o.OrderID = od.OrderID
 GROUP BY r.CountryName, r.State
 ORDER BY TotalRevenue DESC;
 ```
+This SQL query calculates the total revenue generated from orders, grouped by state and country. It starts by selecting the country name and state from the `Region` table, then joins it with the `Warehouse` table using `RegionID`, connects to the `Employee` table via `WarehouseID`, and links to the `Orders` table, ensuring only valid customer orders are considered (`CustomerID IS NOT NULL`). It further joins with the `OrderDetails` table to access the quantity and unit price of items ordered. The total revenue is computed by multiplying `OrderItemQuantity` by `PerUnitPrice` for each order, then summing these values. The results are grouped by country and state to aggregate revenue regionally and sorted in descending order to highlight top-performing regions.
+
 ## Output
 |countryname              |state               |totalrevenue   |
 |-------------------------|--------------------|---------------|
@@ -1332,6 +1337,8 @@ ORDER BY TotalRevenue DESC;
 |Canada                   |Ontario             |1342883991.24  |
 |United States of America |California          |1342883991.24  |
 |India                    |Maharashtra         |1312363900.53  |
+
+The revenue contribution analysis by state and country reveals that the highest total revenue, approximately 1.37 billion, was generated equally across several top-performing regions: Distrito Federal (Mexico), Washington and New Jersey (USA), New South Wales (Australia), and Beijing (China). These are followed by Texas, Ontario, and California, each contributing around 1.34 billion in revenue, and Maharashtra (India) with about 1.31 billion. This distribution indicates a strong and relatively balanced revenue performance among key states across multiple countries, suggesting a wide and effective geographic market presence.
 
 ## Visualization
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/Sheet%2021a.png?raw=true)
