@@ -44,6 +44,20 @@ Below is a high-level overview of the core tables:
 | **Warehouse**     | Information about warehouse facilities, including warehouse name, address, and linked region. Important for logistics and stock distribution. |
 | **Employee**      | Records employee details such as name, email, phone, hire date, job title, and assigned warehouse. Useful for workforce management and warehouse operations. |
 
+Some visualialization of the dataset regarding orders, credit limit, cost, price, profit and employees are shown in the following graphs.
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/customer_credit-limit.png?raw=true" width="33%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/order_status.png?raw=true" width="33%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/monthwise_order_count.png?raw=true" width="33%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/cost-price_profit.png?raw=true" width="32.1%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/employee_count.png?raw=true" width="34.7%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/employee_intake.png?raw=true" width="32.1%" />
+</p>
+
 ## ER Diagram
 The Entity-Relationship Diagram (ERD) visually represents the relationships between these tables, illustrating primary and foreign key constraints to ensure proper data flow and referential integrity.
 
