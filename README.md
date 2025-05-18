@@ -47,9 +47,9 @@ Below is a high-level overview of the core tables:
 Some visualialization of the dataset regarding orders, credit limit, cost, price, profit and employees are shown in the following graphs.
 
 <p align="center">
-  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/customer_credit-limit.png?raw=true" width="33%" />
-  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/order_status.png?raw=true" width="33%" />
-  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/monthwise_order_count.png?raw=true" width="33%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/customer_credit-limit.png?raw=true" width="32.9%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/order_status.png?raw=true" width="32.9%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Inventory_Management/blob/main/Images/monthwise_order_count.png?raw=true" width="32.9%" />
 </p>
 
 <p align="center">
